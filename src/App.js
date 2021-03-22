@@ -1,21 +1,22 @@
 import './App.css';
-import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React, {Component} from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import {Navigation} from './components/Navigation.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from './components/Navigation.js';
+import {About} from './components/About.js';
 
 
-class App extends React.Component {
+export default class App extends Component {
   render() {
     return (
-    <div className="App">
+    <React.Fragment>
      <Router>
        <Navigation />
+
+       <Route path="/about" component={About} />
      </Router>
-    </div>
+    </React.Fragment>
   );
   }
 }
-
-export default App;
