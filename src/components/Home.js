@@ -4,7 +4,7 @@ class Home extends React.Component() {
     render() {
         return (
             <div>
-                  <Button variant="primary">Primary</Button>{' '}
+                  <h1>Hello world</h1>
             </div>
         );
     }
