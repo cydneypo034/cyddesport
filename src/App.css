@@ -3,24 +3,24 @@
     src: url('./components/fonts/Grovana-MediumRound.ttf');
     }
 
-.HomeFont {
+.DocFont {
     font-family: Grovana;
     text-align: center;
     font-size: 50px;
     color: #D9A3A3;
 }
 
-.HomeSubFont {
+.DocSubFont {
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
     text-align: center;
     color: #D9A3A3;
 }
 
-.HomeButton {
+.DocButton {
     text-align: center;
 }
 
-.custom-btn {
-    color: #D9A3A3;
+.AboutMeImage {
+    
 }
