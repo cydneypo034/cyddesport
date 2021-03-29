@@ -7,14 +7,20 @@
     font-family: Grovana;
     text-align: center;
     font-size: 50px;
+    color: #D9A3A3;
 }
 
 .HomeSubFont {
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
     text-align: center;
+    color: #D9A3A3;
 }
 
 .HomeButton {
     text-align: center;
+}
+
+.custom-btn {
+    color: #D9A3A3;
 }

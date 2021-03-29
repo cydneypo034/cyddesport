@@ -15,9 +15,9 @@ export default class Home extends Component {
                     <p className="HomeSubFont">i'm a software engineer with a 
                     background in graphic design, currently residing in Atlanta, Georgia</p>
 
-                    <div class="HomeButton">
-                    <Button variant="warning" href="https://github.com/cydneypo034">Github</Button> {' '}
-                    <Button variant="warning" href={PDF} target="_blank">CV/Resume</Button>
+                    <div className="HomeButton">
+                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}} href="https://github.com/cydneypo034">Github</Button> {' '}
+                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}} href={PDF} target="_blank">CV/Resume</Button>
                     </div>
 
                     </div>
