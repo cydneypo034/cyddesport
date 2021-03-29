@@ -1,3 +1,8 @@
-.Home-Font {
-    font-family: 'Fira Sans', sans-serif;
+@font-face {
+    font-family: Grovana;
+    src: url('./components/fonts/Grovana-MediumRound.ttf');
+    }
+
+.HomeFont {
+    font-family: Grovana;
 }

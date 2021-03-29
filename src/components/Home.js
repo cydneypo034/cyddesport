@@ -1,9 +1,9 @@
-import react, {Component} from "react";
+import React, {Component} from "react";
 
 export default class Home extends Component {
     render () {
         return (
-            <h1 className="Home-Font">hello, it's nice to meet you.</h1>
+            <h1 className="HomeFont">hello, it's nice to meet you.</h1>
         );
     }
 }
