@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import CrownClothes from '../components/images/crownclothesproj.png';
+import FiaworldPage from '../components/images/fiaworld.png';
 import GitHubLogo from '../components/images/githublogo.png';
 import HerokuLogo from '../components/images/heroku.png';
 
@@ -29,8 +30,15 @@ export default class Portfolio extends Component {
 
 
                 <div className="card">
-                <img src={CrownClothes} alt="clothing-store-website" className="Portfolio-Image" />
-                <div className="overlay">
+                <img src={FiaworldPage} alt="music-website" className="Portfolio-Image" />
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Fiaworld Productions</p>
+                    </div>
+                    <div className="content">
+                    FIA Corporation is an multi-media production company made with React, React Router DOM, Node.Js, Python, SQL, Django Rest Framework and Express.Js.
+                    &nbsp; <a href
+                    </div>
 
                 </div>
                 </div>
