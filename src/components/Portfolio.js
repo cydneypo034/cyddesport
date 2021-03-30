@@ -17,9 +17,11 @@ export default class Portfolio extends Component {
             
             <section>
                 
-                <div className="card-wrapper">
+                <div className="columns is-multiline">
                 
-                <div className="card">
+
+               <div className="column is-4">
+               <div className="card">
                 <img src={CrownClothes} alt="clothing-store-website-with-5-shopping-categories" className="Portfolio-Image" />
                 <div className="card-content">
                     <div className="media-content">
@@ -32,8 +34,10 @@ export default class Portfolio extends Component {
                     </div>
                 </div>
                 </div>
+               </div>
+                
 
-
+               <div className="column is-4">
                 <div className="card">
                 <img src={FiaworldPage} alt="website-with-three-artists-and-FIA-company-description" className="Portfolio-Image" />
                 <div className="card-content">
@@ -48,7 +52,10 @@ export default class Portfolio extends Component {
 
                 </div>
                 </div>
+                </div>
 
+
+                <div className="column is-4">
                 <div className="card">
                 <img src={Feminaku} alt="website-page-with-anime-girl" className="Portfolio-Image" />
                 <div className="card-content">
@@ -56,30 +63,35 @@ export default class Portfolio extends Component {
                         <p className="title is-4">Feminaku Social Database</p>
                     </div>
                     <div className="content">
-                    Feminaku is an social gathering application made with React, React Router DOM, Express.Js, MDBootstrap, Mongoose and Mongo DB.
+                    Feminaku Social Database is an social media application made with React, React Router DOM, Express.Js, MDBootstrap, Mongoose and Mongo DB.
                      &nbsp; <a href="https://github.com/cydneypo034/feminakutwo"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
                     <a href="https://feminaku.herokuapp.com/"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
 
                 </div>
                 </div>
+                </div>
 
+
+                <div className="column is-4">
                 <div className="card">
                 <img src={ArtistPocket} alt="website-with-paintbrush-strokes" className="Portfolio-Image" />
                 <div className="card-content">
                     <div className="media-content">
-                        <p className="title is-4">The Artist Pocket Database</p>
+                        <p className="title is-4">The Artist's Pocket Database</p>
                     </div>
                     <div className="content">
-                    An Artist's Pocket is an art store directory made with Express.Js, Handlebars.Js, Mongoose, Mongo DB and Bootstrap.
+                    An Artist's Pocket Database is an art store directory application made with Express.Js, Handlebars.Js, Mongoose, Mongo DB and Bootstrap.
                     &nbsp; <a href="https://github.com/cydneypo034/artist-app"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
                     <a href="https://vast-dusk-81442.herokuapp.com/artstore"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
 
                 </div>
                 </div>
+                </div>
 
 
+                <div className="column is-4">
                 <div className="card">
                 <img src={MySimonSays} alt="site-with-ponies-in-sqaures" className="Portfolio-Image" />
                 <div className="card-content">
@@ -94,8 +106,11 @@ export default class Portfolio extends Component {
 
                 </div>
                 </div>
-                
                 </div>
+
+
+                </div>
+                
             </section>
             </div>
         )
