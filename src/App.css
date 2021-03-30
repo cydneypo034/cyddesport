@@ -41,3 +41,9 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.card {
+    width: 37rem;
+    display: flex;
+    
+}
