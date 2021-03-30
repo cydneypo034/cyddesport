@@ -27,5 +27,17 @@
 }
 
 .Portfolio-Image {
-    
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
