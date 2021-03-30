@@ -3,8 +3,10 @@ import ArtistPocket from '../components/images/artistpocket.png';
 import CrownClothes from '../components/images/crownclothesproj.png';
 import FiaworldPage from '../components/images/fiaworld.png';
 import Feminaku from '../components/images/feminakufrontpage.png';
+import MySimonSays from '../components/images/simonsaysgame.png';
 import GitHubLogo from '../components/images/githublogo.png';
 import HerokuLogo from '../components/images/heroku.png';
+import netlify from '../components/images/logomark.png';
 
 export default class Portfolio extends Component {
     render () {
@@ -77,7 +79,20 @@ export default class Portfolio extends Component {
                 </div>
 
 
-                
+                <div className="card">
+                <img src={MySimonSays} alt="site-with-ponies-in-sqaures" className="Portfolio-Image" />
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">My Best Friend Says</p>
+                    </div>
+                    <div className="content">
+                    My Best Friend Says is a rendition of the Simon Says game made with HTML, CSS and ES6 JavaScript.
+                    &nbsp; <a href="https://github.com/cydneypo034/mybestfriendsays"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://adoring-bhaskara-ff6b52.netlify.com/"><img src={netlify} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+
+                </div>
+                </div>
                 
                 </div>
             </section>
