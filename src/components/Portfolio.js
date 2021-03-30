@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ArtistPocket from '../components/images/artistpocket.png';
 import CrownClothes from '../components/images/crownclothesproj.png';
 import FiaworldPage from '../components/images/fiaworld.png';
 import Feminaku from '../components/images/feminakufrontpage.png';
@@ -16,7 +17,7 @@ export default class Portfolio extends Component {
                 <div className="card-wrapper">
                 
                 <div className="card">
-                <img src={CrownClothes} alt="clothing-store-website" className="Portfolio-Image" />
+                <img src={CrownClothes} alt="clothing-store-website-with-5-shopping-categories" className="Portfolio-Image" />
                 <div className="card-content">
                     <div className="media-content">
                         <p className="title is-4">CRWN Clothing Ltd.</p>
@@ -31,7 +32,7 @@ export default class Portfolio extends Component {
 
 
                 <div className="card">
-                <img src={FiaworldPage} alt="music-website" className="Portfolio-Image" />
+                <img src={FiaworldPage} alt="website-with-three-artists-and-FIA-company-description" className="Portfolio-Image" />
                 <div className="card-content">
                     <div className="media-content">
                         <p className="title is-4">Fiaworld Productions</p>
@@ -46,7 +47,7 @@ export default class Portfolio extends Component {
                 </div>
 
                 <div className="card">
-                <img src={Feminaku} alt="anime-website" className="Portfolio-Image" />
+                <img src={Feminaku} alt="website-page-with-anime-girl" className="Portfolio-Image" />
                 <div className="card-content">
                     <div className="media-content">
                         <p className="title is-4">Feminaku Social Database</p>
@@ -61,15 +62,15 @@ export default class Portfolio extends Component {
                 </div>
 
                 <div className="card">
-                <img src={Feminaku} alt="anime-website" className="Portfolio-Image" />
+                <img src={ArtistPocket} alt="website-with-paintbrush-strokes" className="Portfolio-Image" />
                 <div className="card-content">
                     <div className="media-content">
                         <p className="title is-4">The Artist Pocket Database</p>
                     </div>
                     <div className="content">
-                    Feminaku is an social gathering application made with React, React Router DOM, Express.Js, MDBootstrap, Mongoose and Mongo DB.
-                     &nbsp; <a href="https://github.com/cydneypo034/feminakutwo"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://feminaku.herokuapp.com/"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    An Artist's Pocket is an art store directory made with Express.Js, Handlebars.Js, Mongoose, Mongo DB and Bootstrap.
+                    &nbsp; <a href="https://github.com/cydneypo034/artist-app"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://vast-dusk-81442.herokuapp.com/artstore"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
 
                 </div>
