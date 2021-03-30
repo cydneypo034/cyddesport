@@ -43,7 +43,7 @@ section {
 }
 
 .card {
-    width: 37rem;
+    width: 30rem;
     display: flex;
     flex-direction: row;
     margin: 1rem 0;

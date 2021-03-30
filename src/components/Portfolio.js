@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import CrownClothes from '../components/images/crownclothesproj.png';
 import FiaworldPage from '../components/images/fiaworld.png';
+import Feminaku from '../components/images/feminakufrontpage.png';
 import GitHubLogo from '../components/images/githublogo.png';
 import HerokuLogo from '../components/images/heroku.png';
 
@@ -36,12 +37,45 @@ export default class Portfolio extends Component {
                         <p className="title is-4">Fiaworld Productions</p>
                     </div>
                     <div className="content">
-                    FIA Corporation is an multi-media production company made with React, React Router DOM, Node.Js, Python, SQL, Django Rest Framework and Express.Js.
-                    &nbsp; <a href
+                    Fiaworld.com is a production company website made with React, React Router DOM, Python, SQL, Django Rest Framework and Express.Js.
+                    &nbsp; <a href="https://github.com/cydneypo034/fiaworld-project"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://fierce-mountain-28176.herokuapp.com"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
 
                 </div>
                 </div>
+
+                <div className="card">
+                <img src={Feminaku} alt="anime-website" className="Portfolio-Image" />
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Feminaku Social Database</p>
+                    </div>
+                    <div className="content">
+                    Feminaku is an social gathering application made with React, React Router DOM, Express.Js, MDBootstrap, Mongoose and Mongo DB.
+                     &nbsp; <a href="https://github.com/cydneypo034/feminakutwo"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://feminaku.herokuapp.com/"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+
+                </div>
+                </div>
+
+                <div className="card">
+                <img src={Feminaku} alt="anime-website" className="Portfolio-Image" />
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">The Artist Pocket Database</p>
+                    </div>
+                    <div className="content">
+                    Feminaku is an social gathering application made with React, React Router DOM, Express.Js, MDBootstrap, Mongoose and Mongo DB.
+                     &nbsp; <a href="https://github.com/cydneypo034/feminakutwo"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://feminaku.herokuapp.com/"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+
+                </div>
+                </div>
+
+
                 
                 
                 </div>
