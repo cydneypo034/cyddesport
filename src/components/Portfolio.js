@@ -16,6 +16,7 @@ export default class Portfolio extends Component {
                 <h2 className="DocSubFont">Below is a list of my web applications I've completed from July 2019 until now.</h2>
             
             <section>
+                
                 <div className="card-wrapper">
                 
                 <div className="card">
@@ -86,7 +87,7 @@ export default class Portfolio extends Component {
                         <p className="title is-4">My Best Friend Says</p>
                     </div>
                     <div className="content">
-                    My Best Friend Says is a rendition of the Simon Says game made with HTML, CSS and ES6 JavaScript.
+                    My Best Friend Says is a rendition of the Simon Says game featuring My Little Pony characters made with HTML, CSS and ES6 JavaScript.
                     &nbsp; <a href="https://github.com/cydneypo034/mybestfriendsays"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
                     <a href="https://adoring-bhaskara-ff6b52.netlify.com/"><img src={netlify} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>

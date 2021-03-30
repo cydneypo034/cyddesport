@@ -33,7 +33,7 @@
 }
 
 section {
-    padding: 5rem 0;
+    padding: 1rem 0;
 }
 
 .card-wrapper {
@@ -43,7 +43,7 @@ section {
 }
 
 .card {
-    width: 30rem;
+    width: 25rem;
     display: flex;
     flex-direction: row;
     margin: 1rem 0;
