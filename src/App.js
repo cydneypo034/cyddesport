@@ -6,6 +6,7 @@ import { HashRouter, Switch, Route } from "react-router-dom";
 import Navigation from './components/Navigation.js';
 import About from './components/About.js';
 import Home from './components/Home.js';
+import Portfolio from './components/Portfolio.js';
 
 
 export default class App extends Component {
@@ -16,6 +17,7 @@ export default class App extends Component {
        <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/portfolio" component={Portfolio} />
        </Switch>
        </HashRouter>
   );
