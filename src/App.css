@@ -62,3 +62,17 @@ section {
     font-size: 20px;
     color: #D9A3A3;
 }
+
+.card-content, .media-content {
+    text-align: center;
+}
+
+.DocContactInfo {
+    font-family: Grovana;
+    font-size: 40px;
+    color: #D9A3A3;
+}
+
+.ProfileImage-ContactPage {
+    float: right;
+}
