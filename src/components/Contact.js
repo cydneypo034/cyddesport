@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Button, Form, Row, Col, InputGroup} from "react-bootstrap";
+import emailjs from 'emailjs-com';
 
 export default class Contact extends Component {
     render () {
