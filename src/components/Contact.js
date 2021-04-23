@@ -1,52 +1,62 @@
 import React, {Component} from 'react';
-import {Button, Form, Row, Col, InputGroup} from "react-bootstrap";
 import{ init } from 'emailjs-com';
+
 
 export default class Contact extends Component {
 
+    state = {
+        name='',
+        email='',
+        subject='',
+        message='',
+    }
+
+    onSubmit(values) {
+        console.log(values);
+    }
 
     render () {
+
         return (
-            <div>
-                <div class="field">
-                <label class="label">Name</label>
-                <div class="control">
-                    <input class="input" type="text" placeholder="Text input"/>
+            <div className= "ContactForm">
+                <form onSubmit={handleSubmit(onSubmit)}>
+
+                <div className="field">
+                <label className="label">Name</label>
+                <div className="control">
+                    <input className="input" type="text" name="name" placeholder="Name"/>
                 </div>
                 </div>
 
-                <div class="field">
-                <label class="label">Email</label>
-                <div class="control">
-                    <input class="input" type="text" placeholder="Text input"/>
+                <div className="field">
+                <label className="label">Email</label>
+                <div className="control">
+                    <input className="input" type="text" name="email" placeholder="Email"/>
                 </div>
                 </div>
 
-                <div class="field">
-                <label class="label">Subject</label>
-                <div class="control">
-                    <div class="select">
-                    <select>
-                        <option>Select dropdown</option>
-                        <option>Networking Opportunity</option>
-                        <option>Quick Zoom Chat</option>
-                    </select>
-                    </div>
+                <div className="field">
+                <label className="label">Subject</label>
+                <div className="control">
+                <input className="input" type="text" name="subject" placeholder="Subject"/>
                 </div>
                 </div>
 
-                <div class="field">
-                <label class="label">Message</label>
-                <div class="control">
-                    <textarea class="textarea" placeholder="Textarea"></textarea>
+                <div className="field">
+                <label className="label">Message</label>
+                <div className="control">
+                    <textarea className="textarea" name="message" placeholder="Message"></textarea>
                 </div>
                 </div>
 
-                <div class="field">
-                <div class="control">
-                    <button class="button is-link">Submit</button>
+
+                <div className="field">
+                <div className="control">
+                    <button className="button is-link">Submit</button>
                 </div>
                 </div>
+                
+                </form>
 
             </div>
             
