@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Button, Form, Row, Col, InputGroup} from "react-bootstrap";
-import emailjs from 'emailjs-com';
+import{ init } from 'emailjs-com';
 
 export default class Contact extends Component {
     state = {
@@ -15,8 +15,10 @@ export default class Contact extends Component {
 
         const { name, email, subject, message } = this.state
 
+
+
     }
-    
+
     render () {
         return (
             <div>
