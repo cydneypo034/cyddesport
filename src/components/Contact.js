@@ -16,6 +16,20 @@ export default class Contact extends Component {
 
         const {name, email, subject, message} = this.state;
 
+        let emailTempParams = {
+            to_name: 'service_z7kbhx8',
+            from_name: email,
+            subject: subject,
+            message_html: message,
+        }
+
+        emailjs.send(
+            'gmail',
+            'template_0bmhyth',
+            emailTempParams,
+            'user_cVsWCXMUJEy1JRpo3ANGc'
+        )
+
         this.resetForm();
 
     }
