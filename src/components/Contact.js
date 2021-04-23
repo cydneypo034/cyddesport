@@ -3,6 +3,20 @@ import {Button, Form, Row, Col, InputGroup} from "react-bootstrap";
 import emailjs from 'emailjs-com';
 
 export default class Contact extends Component {
+    state = {
+        name = '',
+        email = '',
+        subject = '',
+        message = ''
+    }
+
+    handleSubmit(e) {
+        e.preventDefault()
+
+        const { name, email, subject, message } = this.state
+
+    }
+    
     render () {
         return (
             <div>
