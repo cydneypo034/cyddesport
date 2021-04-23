@@ -16,9 +16,21 @@ export default class Contact extends Component {
 
         const {name, email, subject, message} = this.state;
 
-        
-        console.log(state)
+        this.resetForm();
 
+    }
+
+    resetForm(){
+        this.setState({
+            name:'',
+            email:'',
+            subject:'',
+            message:'',
+        })
+    }
+
+    handleChange = (parameters, e) => {
+        this.setState({[parameters]: e.target.value})
     }
 
     render () {
@@ -30,7 +42,9 @@ export default class Contact extends Component {
                 <div className="field">
                 <label className="label">Name</label>
                 <div className="control">
-                    <input className="input" type="text" value={this.state.name} name="name" placeholder="Name"/>
+                    <input className="input" type="text" value={this.state.name} 
+                    onChange={this.handleChange.bind(this, 'name')}
+                    name="name" placeholder="Name"/>
                 </div>
                 </div>
 
