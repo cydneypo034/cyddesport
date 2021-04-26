@@ -26,9 +26,12 @@
     height: 95%;
 }
 
-.Portfolio-Image {
-    width: 100%;
-    height: 100%;
+.Portfolio-Image, .card img{
+    height: 200px;
+}
+
+.content img {
+    height: 60px;
 }
 
 section {
