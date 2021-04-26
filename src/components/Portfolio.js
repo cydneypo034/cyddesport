@@ -22,9 +22,7 @@ export default class Portfolio extends Component {
 
                <div className="column">
                <div className="card">
-                   <figure className="image is4by3">
-                    <img src={CrownClothes} alt="clothing-store-website-with-5-shopping-categories" className="Portfolio-Image" />
-                   </figure>
+                   
                 <div className="card-content">
                     <div className="media-content">
                         <p className="title is-4">CRWN Clothing Ltd.</p>
@@ -43,7 +41,6 @@ export default class Portfolio extends Component {
 
                <div className="column">
                 <div className="card">
-                <img src={FiaworldPage} alt="website-with-three-artists-and-FIA-company-description" className="Portfolio-Image" />
                 <div className="card-content">
                     <div className="media-content">
                         <p className="title is-4">Fiaworld Productions</p>
@@ -62,7 +59,6 @@ export default class Portfolio extends Component {
 
                 <div className="column">
                 <div className="card">
-                <img src={Feminaku} alt="website-page-with-anime-girl" className="Portfolio-Image" />
                 <div className="card-content">
                     <div className="media-content">
                         <p className="title is-4">Feminaku Social Database</p>
@@ -81,7 +77,6 @@ export default class Portfolio extends Component {
 
                 <div className="column">
                 <div className="card">
-                <img src={ArtistPocket} alt="website-with-paintbrush-strokes" className="Portfolio-Image" />
                 <div className="card-content">
                     <div className="media-content">
                         <p className="title is-4">The Artist's Pocket Database</p>
@@ -100,7 +95,6 @@ export default class Portfolio extends Component {
 
                 <div className="column">
                 <div className="card">
-                <img src={MySimonSays} alt="site-with-ponies-in-sqaures" className="Portfolio-Image" />
                 <div className="card-content">
                     <div className="media-content">
                         <p className="title is-4">My Best Friend Says</p>
