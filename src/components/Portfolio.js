@@ -22,12 +22,14 @@ export default class Portfolio extends Component {
 
                <div className="column">
                <div className="card">
-                <img src={CrownClothes} alt="clothing-store-website-with-5-shopping-categories" className="Portfolio-Image" />
+                   <figure className="image is4by3">
+                    <img src={CrownClothes} alt="clothing-store-website-with-5-shopping-categories" className="Portfolio-Image" />
+                   </figure>
                 <div className="card-content">
-                    <div className="media-content">
+                    <div className="media">
                         <p className="title is-4">CRWN Clothing Ltd.</p>
                     </div>
-                    <div className="content">
+                    <div className="media-content">
                     CRWN Clothing Ltd. is a e-commerce fashion website made with
                      React, React Router DOM, React Redux, Stripe API, Firebase, and Reselect. 
                     &nbsp; <a href="https://github.com/cydneypo034/crown-clothing"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
