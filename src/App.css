@@ -46,7 +46,7 @@ section {
     width: 25rem;
     display: flex;
     flex-direction: row;
-    margin: 1rem 0;
+    margin: auto;
 }
 
 .DocSmallFont {
@@ -80,9 +80,6 @@ section {
 .input {
     border-width: 1px;
     border-radius: 15px;
-}
-.card {
-    margin: auto;
 }
 
 form {
