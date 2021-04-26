@@ -38,6 +38,19 @@ section {
     padding: 1rem 0;
 }
 
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
 .card-wrapper {
     display: flex;
     flex-direction: row;

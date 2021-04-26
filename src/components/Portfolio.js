@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import ArtistPocket from '../components/images/artistpocket.png';
+import ArtistPocket from '../components/images/artstorephoto.png';
 import CrownClothes from '../components/images/crownclothesproj.png';
-import FiaworldPage from '../components/images/fiaworld.png';
+import FiaworldPage from '../components/images/fiaworldphoto.png';
 import Feminaku from '../components/images/feminakufrontpage.png';
-import MySimonSays from '../components/images/simonsaysgame.png';
+import MySimonSays from '../components/images/littleponyphoto.png';
 import GitHubLogo from '../components/images/githublogo.png';
 import HerokuLogo from '../components/images/heroku.png';
 import netlify from '../components/images/logomark.png';
@@ -22,19 +22,23 @@ export default class Portfolio extends Component {
 
                <div className="column">
                <div className="card">
-                   
-                <div className="card-content">
+               <img src={CrownClothes} alt="clothing-store-website-with-5-shopping-categories" className="Portfolio-Image" />
+
+                   <div className="overlay">
+                   <div className="card-content">
                     <div className="media-content">
                         <p className="title is-4">CRWN Clothing Ltd.</p>
-                    
+                        </div>
                     <div className="content">
                     CRWN Clothing Ltd. is a e-commerce fashion website made with
                      React, React Router DOM, React Redux, Stripe API, Firebase, and Reselect. 
                     &nbsp; <a href="https://github.com/cydneypo034/crown-clothing"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
                     <a href="https://crownclothes.herokuapp.com"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
-                    </div>
                 </div>
+                
+                   </div>
+                   
                 </div>
                </div>
                 
