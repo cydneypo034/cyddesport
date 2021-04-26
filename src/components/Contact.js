@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import{ init } from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 
 export default class Contact extends Component {
@@ -15,6 +15,9 @@ export default class Contact extends Component {
         e.preventDefault();
 
         const {name, email, subject, message} = this.state;
+        const serviceId = process.env.REACT_APP_EMAILJS_SERVICEID;
+        const templateId = process.env.REACT_APP_EMAILJS_TEMPLATEID;
+        const userId = process.env.REACT_APP_EMAILJS_USERID;
 
         let emailTempParams = {
             to_name: name,
@@ -24,10 +27,10 @@ export default class Contact extends Component {
         }
 
         emailjs.send(
-            'service_z7kbhx8',
-            'template_0bmhyth',
+            serviceId,
+            templateId,
             emailTempParams,
-            'user_cVsWCXMUJEy1JRpo3ANGc'
+            userId
         )
 
         this.resetForm();
