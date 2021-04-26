@@ -26,14 +26,15 @@ export default class Portfolio extends Component {
                     <img src={CrownClothes} alt="clothing-store-website-with-5-shopping-categories" className="Portfolio-Image" />
                    </figure>
                 <div className="card-content">
-                    <div className="media">
-                        <p className="title is-4">CRWN Clothing Ltd.</p>
-                    </div>
                     <div className="media-content">
+                        <p className="title is-4">CRWN Clothing Ltd.</p>
+                    
+                    <div className="content">
                     CRWN Clothing Ltd. is a e-commerce fashion website made with
                      React, React Router DOM, React Redux, Stripe API, Firebase, and Reselect. 
                     &nbsp; <a href="https://github.com/cydneypo034/crown-clothing"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
                     <a href="https://crownclothes.herokuapp.com"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
                     </div>
                 </div>
                 </div>
