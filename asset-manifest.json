@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cyddesport/static/css/main.343323aa.chunk.css",
-    "main.js": "/cyddesport/static/js/main.32700b10.chunk.js",
-    "main.js.map": "/cyddesport/static/js/main.32700b10.chunk.js.map",
+    "main.js": "/cyddesport/static/js/main.d55b7540.chunk.js",
+    "main.js.map": "/cyddesport/static/js/main.d55b7540.chunk.js.map",
     "runtime-main.js": "/cyddesport/static/js/runtime-main.dbb5135a.js",
     "runtime-main.js.map": "/cyddesport/static/js/runtime-main.dbb5135a.js.map",
     "static/css/2.150d169a.chunk.css": "/cyddesport/static/css/2.150d169a.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.07bb2665.chunk.js",
     "static/css/main.343323aa.chunk.css",
-    "static/js/main.32700b10.chunk.js"
+    "static/js/main.d55b7540.chunk.js"
   ]
 }
