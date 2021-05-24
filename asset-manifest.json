@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cyddesport/static/css/main.343323aa.chunk.css",
-    "main.js": "/cyddesport/static/js/main.0edce6f5.chunk.js",
-    "main.js.map": "/cyddesport/static/js/main.0edce6f5.chunk.js.map",
+    "main.js": "/cyddesport/static/js/main.0030c207.chunk.js",
+    "main.js.map": "/cyddesport/static/js/main.0030c207.chunk.js.map",
     "runtime-main.js": "/cyddesport/static/js/runtime-main.dbb5135a.js",
     "runtime-main.js.map": "/cyddesport/static/js/runtime-main.dbb5135a.js.map",
     "static/css/2.150d169a.chunk.css": "/cyddesport/static/css/2.150d169a.chunk.css",
@@ -14,12 +14,18 @@
     "static/css/2.150d169a.chunk.css.map": "/cyddesport/static/css/2.150d169a.chunk.css.map",
     "static/css/main.343323aa.chunk.css.map": "/cyddesport/static/css/main.343323aa.chunk.css.map",
     "static/js/2.fd19bfbd.chunk.js.LICENSE.txt": "/cyddesport/static/js/2.fd19bfbd.chunk.js.LICENSE.txt",
+    "static/media/CBDS-Pdf.a53c9a43.pdf": "/cyddesport/static/media/CBDS-Pdf.a53c9a43.pdf",
+    "static/media/CCpdf.5002982c.pdf": "/cyddesport/static/media/CCpdf.5002982c.pdf",
     "static/media/CydneyPollardCV2021.04d97d0b.pdf": "/cyddesport/static/media/CydneyPollardCV2021.04d97d0b.pdf",
     "static/media/App.css": "/cyddesport/static/media/Grovana-MediumRound.ec52f0f5.ttf",
+    "static/media/IGStrategyCC.f38f9de0.pdf": "/cyddesport/static/media/IGStrategyCC.f38f9de0.pdf",
     "static/media/MLDSPDF.de407cbe.pdf": "/cyddesport/static/media/MLDSPDF.de407cbe.pdf",
+    "static/media/PESkin-PDF.7483e859.pdf": "/cyddesport/static/media/PESkin-PDF.7483e859.pdf",
     "static/media/artstorephoto.9a3b7e77.png": "/cyddesport/static/media/artstorephoto.9a3b7e77.png",
+    "static/media/boostofjoy-PDF.d22525eb.pdf": "/cyddesport/static/media/boostofjoy-PDF.d22525eb.pdf",
     "static/media/boostofjoybrand.39e731e8.png": "/cyddesport/static/media/boostofjoybrand.39e731e8.png",
     "static/media/cbds-logo.88fb2e54.png": "/cyddesport/static/media/cbds-logo.88fb2e54.png",
+    "static/media/closetconfidencepng.a62c58fa.png": "/cyddesport/static/media/closetconfidencepng.a62c58fa.png",
     "static/media/crownclothesproj.d8452840.png": "/cyddesport/static/media/crownclothesproj.d8452840.png",
     "static/media/cydneyaboutmephoto.af036bab.png": "/cyddesport/static/media/cydneyaboutmephoto.af036bab.png",
     "static/media/feminakufrontpage.c726edd1.png": "/cyddesport/static/media/feminakufrontpage.c726edd1.png",
@@ -34,6 +40,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.fd19bfbd.chunk.js",
     "static/css/main.343323aa.chunk.css",
-    "static/js/main.0edce6f5.chunk.js"
+    "static/js/main.0030c207.chunk.js"
   ]
 }
