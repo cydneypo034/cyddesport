@@ -5,6 +5,8 @@ import PurposeEden from './images/purposeedenskin.png';
 import BoostOfJoy from './images/boostofjoybrand.png';
 import Closetconfidence from './images/closetconfidencepng.png';
 import MoonLotusLogo from '../components/images/moonlotuslogo.png';
+import CWOWLogo from '../components/images/cwowlogo.jpg';
+import ChurchWowPDF from '../components/uploads/CWOWpdf.pdf';
 import CydneyBDSPDF from '../components/uploads/CBDS-Pdf.pdf';
 import MLDSPDF from '../components/uploads/MLDSPDF.pdf';
 import PurposeSkinPDF from '../components/uploads/PESkin-PDF.pdf';
@@ -17,7 +19,7 @@ export default class GraphicDesign extends Component {
         return (
             <div>
                 <h1 className="DocFont">my design portfolio</h1>
-                <h2 className="DocSubFont">Below is a list of brand designs I've completed from December 2016 until now.</h2>
+                <h2 className="DocSubFont">Below is a list of brand designs I've completed.</h2>
             
             <section>
                 
@@ -37,11 +39,11 @@ export default class GraphicDesign extends Component {
                     tell their story with truth and honesty, while fulfilling their business dream.
                     They do this through a unique approach of actively listening to their clients,
                     creating designs unique and specific to their coaching practices, and allowing the
-                    heart and spirit behind a brand  
-                     <div className="SocialMedia-Icons">
+                    heart and spirit behind a brand to truly shine.
+                    </div>
+                    <div className="SocialMedia-Icons">
                      <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
                      href={CydneyBDSPDF} target="_blank">View Cydney B Design Services PDF</Button>
-                    </div>
                     </div>
                 </div>
                 </div>
@@ -61,11 +63,12 @@ export default class GraphicDesign extends Component {
                     <div className="content">
                     Purposefully Eden Skincare is a skincare line that provides holistic and 
                     effective skincare and wellness products designed for african-american women. 
-                    Their products are designed to improve the skin and nourish the soul with ingredients grown in Nigeria.
+                    Their products are designed to improve the skin and nourish the soul with 
+                    ingredients grown in Nigeria.
+                    </div>
                     <div className="SocialMedia-Icons">
                     <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
                      href={PurposeSkinPDF} target="_blank">View Purposefully Eden Skin PDF</Button>
-                    </div>
                     </div>
                 </div>
                 </div>
@@ -84,11 +87,13 @@ export default class GraphicDesign extends Component {
                     </div>
                     <div className="content">
                     A Boost of Joy Coaching helps womxn reclaim their inner joy, uncover their 
-                    true confidence, and run toward their destiny wholeheartedly.
+                    true confidence, and run toward their destiny wholeheartedly. They do this through
+                    a unique approach of having womxn look back at when they were younger and reach within themselves
+                    to apologize to their inner child so they can encourage them to dream again.
+                    </div>
                     <div className="SocialMedia-Icons">
                     <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
                      href={BoostofJoyPDF} target="_blank">View A Boost of Joy Coaching PDF</Button>
-                    </div>
                     </div>
                 </div>
                 </div>
@@ -109,10 +114,10 @@ export default class GraphicDesign extends Component {
                     MoonLotus Digital Services helps
                     intuitive and spiritual online service providers with their social media presence so
                     they can serve their clients best and focus on elevating higher.
+                    </div>
                     <div className="SocialMedia-Icons">
                     <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
                      href={MLDSPDF} target="_blank">View MDLS PDF</Button>
-                    </div>
                     </div>
                 </div>
                 </div>
@@ -134,18 +139,43 @@ export default class GraphicDesign extends Component {
                     love themselves as God loves them. They do this through merchandise, 
                     podcasts, and social media posts that help people who lack confidence
                     gain true, genuine security within themselves and see who they are as God does.
+                    </div>
                     <div className="SocialMedia-Icons">
-                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
+                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3', margin: '10px'}}
                      href={CConfidencePDF} target="_blank">View Closet Confidence PDF</Button>
-                     {' '}
+                     
                      <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
                      href={CCstrategyPDF} target="_blank">View Closet Confidence IG Strategy</Button>
                     </div>
+                </div>
+                </div>
+                </div>
+                </div>
+
+
+                <div className="column">
+                <div className="card" style={{ height: '25rem'}}>
+                <img src={CWOWLogo} alt="website-page-with-anime-girl" 
+                className="Portfolio-Image" style={{ height: '25rem'}}/>
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Church Without Walls</p>
+                    </div>
+                    <div className="content">
+                    Church Without Walls' is known as being "The House of the Hungry". They are a multi-church;
+                    meaning they are multi-generational, multi-cultural, and multi-denominational. They welcome
+                    all who look for God to experience Him in a way they maybe haven't seen before.
+                    </div>
+                    <div className="SocialMedia-Icons">
+                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
+                     href={ChurchWowPDF} target="_blank">View CWOW Church Flyers PDF</Button>
                     </div>
                 </div>
                 </div>
                 </div>
                 </div>
+
 
                 </div>
             </section>
