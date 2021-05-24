@@ -1,10 +1,10 @@
 import React, {Component} from "react";
+import {Button} from 'react-bootstrap';
 import CBDSlogo from "./images/cbds-logo.png";
 import PurposeEden from './images/purposeedenskin.png';
 import BoostOfJoy from './images/boostofjoybrand.png';
-import HerokuLogo from '../components/images/heroku.png';
+import MLDSPDF from '../components/uploads/MLDSPDF.pdf';
 import MoonLotusLogo from '../components/images/moonlotuslogo.png';
-import GitHubLogo from '../components/images/githublogo.png';
 
 export default class GraphicDesign extends Component {
     render() {
@@ -32,7 +32,6 @@ export default class GraphicDesign extends Component {
                     Cydney B Design Services is a brand design studio that helps intuitive coaches
                     tell their story with truth and honesty, while fulfilling their business dream.
                      <div className="SocialMedia-Icons">
-                    <a href="https://crownclothes.herokuapp.com"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
                     </div>
                 </div>
@@ -53,10 +52,11 @@ export default class GraphicDesign extends Component {
                         <p className="title is-4">Purposefully Eden Skincare</p>
                     </div>
                     <div className="content">
-                    Purposefully Eden Skincare is a skincare line for African-american women 
+                    Purposefully Eden Skincare is a skincare line that provides holistic and 
+                    effective skincare and wellness products designed for african-american women. 
+                    Their products are designed to improve the skin and nourish the soul with ingredients grown in Nigeria.
                     <div className="SocialMedia-Icons">
-                    <a href="https://fierce-mountain-28176.herokuapp.com"><img 
-                    src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    
                     </div>
                     </div>
                 </div>
@@ -80,8 +80,7 @@ export default class GraphicDesign extends Component {
                     A Boost of Joy Coaching helps womxn reclaim their inner joy, uncover their 
                     true confidence, and run toward their destiny wholeheartedly.
                     <div className="SocialMedia-Icons">
-                    <a href="https://feminaku.herokuapp.com/"><img 
-                    src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    
                     </div>
                     </div>
                 </div>
@@ -105,8 +104,8 @@ export default class GraphicDesign extends Component {
                     intuitive and spiritual online service providers with their social media presence so
                     they can serve their clients best and focus on elevating higher.
                     <div className="SocialMedia-Icons">
-                    <a href="https://feminaku.herokuapp.com/"><img 
-                    src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
+                     href={MLDSPDF} target="_blank">View MDLS PDF</Button>
                     </div>
                     </div>
                 </div>
@@ -115,6 +114,29 @@ export default class GraphicDesign extends Component {
                 </div>
                 </div>
 
+                <div className="column">
+                <div className="card" style={{ height: '25rem'}}>
+                <img src={MoonLotusLogo} alt="website-page-with-anime-girl" 
+                className="Portfolio-Image" style={{ height: '25rem'}}/>
+
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">MoonLotus Digital Services</p>
+                    </div>
+                    <div className="content">
+                    MoonLotus Digital Services helps
+                    intuitive and spiritual online service providers with their social media presence so
+                    they can serve their clients best and focus on elevating higher.
+                    <div className="SocialMedia-Icons">
+                    
+                    </div>
+                    </div>
+                </div>
+                </div>
+               
+                </div>
+                </div>
 
                 </div>
                 
