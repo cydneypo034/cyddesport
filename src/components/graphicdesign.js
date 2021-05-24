@@ -44,20 +44,19 @@ export default class GraphicDesign extends Component {
 
                <div className="column">
                 <div className="card" style={{ height: '25rem'}}>
-                <img src={PurposeEden} alt="website-with-three-artists-and-FIA-company-description" 
+                <img src={PurposeEden} alt="skincare-logo-with-red-flowers" 
                 className="Portfolio-Image" style={{ height: '25rem'}}/>
 
                 <div className="overlay">
                 <div className="card-content">
                     <div className="media-content">
-                        <p className="title is-4">Fiaworld Productions</p>
+                        <p className="title is-4">Purposefully Eden Skincare</p>
                     </div>
                     <div className="content">
-                    Fiaworld.com is a production company website made with 
-                    React, React Router DOM, Python, SQL, Django Rest Framework and Express.Js.
+                    Purposefully Eden Skincare is a skincare line for African-american women 
                     <div className="SocialMedia-Icons">
-                   <a href="https://github.com/cydneypo034/fiaworld-project"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://fierce-mountain-28176.herokuapp.com"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    <a href="https://fierce-mountain-28176.herokuapp.com"><img 
+                    src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
                     </div>
                 </div>
@@ -75,14 +74,14 @@ export default class GraphicDesign extends Component {
                 <div className="overlay">
                 <div className="card-content">
                     <div className="media-content">
-                        <p className="title is-4">Feminaku Social Database</p>
+                        <p className="title is-4">A Boost of Joy Coaching</p>
                     </div>
                     <div className="content">
-                    Feminaku Social Database is an social media application made with 
-                    React, React Router DOM, Mongoose, MDBootstrap, and Mongo DB.
+                    A Boost of Joy Coaching helps womxn reclaim their inner joy, uncover their 
+                    true confidence, and run toward their destiny wholeheartedly.
                     <div className="SocialMedia-Icons">
-                    <a href="https://github.com/cydneypo034/feminakutwo"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://feminaku.herokuapp.com/"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    <a href="https://feminaku.herokuapp.com/"><img 
+                    src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
                     </div>
                 </div>
@@ -99,14 +98,15 @@ export default class GraphicDesign extends Component {
                 <div className="overlay">
                 <div className="card-content">
                     <div className="media-content">
-                        <p className="title is-4">Feminaku Social Database</p>
+                        <p className="title is-4">MoonLotus Digital Services</p>
                     </div>
                     <div className="content">
-                    Feminaku Social Database is an social media application made with 
-                    React, React Router DOM, Mongoose, MDBootstrap, and Mongo DB.
+                    MoonLotus Digital Services helps
+                    intuitive and spiritual online service providers with their social media presence so
+                    they can serve their clients best and focus on elevating higher.
                     <div className="SocialMedia-Icons">
-                    <a href="https://github.com/cydneypo034/feminakutwo"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://feminaku.herokuapp.com/"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    <a href="https://feminaku.herokuapp.com/"><img 
+                    src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
                     </div>
                 </div>
