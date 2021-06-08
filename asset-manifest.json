@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cyddesport/static/css/main.343323aa.chunk.css",
-    "main.js": "/cyddesport/static/js/main.03789164.chunk.js",
-    "main.js.map": "/cyddesport/static/js/main.03789164.chunk.js.map",
+    "main.js": "/cyddesport/static/js/main.63d25680.chunk.js",
+    "main.js.map": "/cyddesport/static/js/main.63d25680.chunk.js.map",
     "runtime-main.js": "/cyddesport/static/js/runtime-main.dbb5135a.js",
     "runtime-main.js.map": "/cyddesport/static/js/runtime-main.dbb5135a.js.map",
     "static/css/2.150d169a.chunk.css": "/cyddesport/static/css/2.150d169a.chunk.css",
@@ -16,8 +16,8 @@
     "static/js/2.fd19bfbd.chunk.js.LICENSE.txt": "/cyddesport/static/js/2.fd19bfbd.chunk.js.LICENSE.txt",
     "static/media/CBDS-Pdf.a53c9a43.pdf": "/cyddesport/static/media/CBDS-Pdf.a53c9a43.pdf",
     "static/media/CCpdf.5002982c.pdf": "/cyddesport/static/media/CCpdf.5002982c.pdf",
+    "static/media/CP-Resume-062021.4090ca3d.pdf": "/cyddesport/static/media/CP-Resume-062021.4090ca3d.pdf",
     "static/media/CWOWpdf.e0c2157c.pdf": "/cyddesport/static/media/CWOWpdf.e0c2157c.pdf",
-    "static/media/CydneyPollardCV2021.04d97d0b.pdf": "/cyddesport/static/media/CydneyPollardCV2021.04d97d0b.pdf",
     "static/media/App.css": "/cyddesport/static/media/Grovana-MediumRound.ec52f0f5.ttf",
     "static/media/IGStrategyCC.f38f9de0.pdf": "/cyddesport/static/media/IGStrategyCC.f38f9de0.pdf",
     "static/media/MLDSPDF.de407cbe.pdf": "/cyddesport/static/media/MLDSPDF.de407cbe.pdf",
@@ -42,6 +42,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.fd19bfbd.chunk.js",
     "static/css/main.343323aa.chunk.css",
-    "static/js/main.03789164.chunk.js"
+    "static/js/main.63d25680.chunk.js"
   ]
 }
