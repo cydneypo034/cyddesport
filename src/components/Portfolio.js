@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import ArtistPocket from '../components/images/artstorephoto.png';
+import CydneyPortfolio from '../components/images/cydneyportfolioimage.png';
 import CrownClothes from '../components/images/crownclothesproj.png';
-import FiaworldPage from '../components/images/fiaworldphoto.png';
+import WeatherPage from '../components/images/weatherphoto.png';
 import Feminaku from '../components/images/feminakufrontpage.png';
 import MySimonSays from '../components/images/littleponyphoto.png';
 import GitHubLogo from '../components/images/githublogo.png';
@@ -18,9 +18,78 @@ export default class Portfolio extends Component {
             <section>
                 
                 <div className="columns is-multiline">
+
+                <div className="column">
+                <div className="card">
+                <img src={CydneyPortfolio} alt="website-with-pink-text" className="Portfolio-Image" />
+
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Cydney Pollard Portfolio</p>
+                    </div>
+                    <div className="content">
+                    Cydney Pollard's Portfolio is a digital portfolio
+                    made with React, React Router DOM, Bulma and Bootstrap.
+                    <div className="SocialMedia-Icons">
+                    <a href="https://github.com/cydneypo034/artist-app"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://vast-dusk-81442.herokuapp.com/artstore"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+               
+                </div>
+                </div>
+                
+                <div className="column">
+                <div className="card">
+                <img src={MySimonSays} alt="site-with-ponies-in-sqaures" className="Portfolio-Image" />
+
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">My Best Friend Says</p>
+                    </div>
+                    <div className="content">
+                    My Best Friend Says is a rendition of the Simon Says game featuring My Little Pony 
+                    characters made with HTML, CSS and ES6 JavaScript.
+                    <div className="SocialMedia-Icons">
+                    <a href="https://github.com/cydneypo034/mybestfriendsays"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://adoring-bhaskara-ff6b52.netlify.com/"><img src={netlify} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
+                </div>
+                </div>
                 
 
                <div className="column">
+                <div className="card">
+                <img src={WeatherPage} alt="website-with-weather-display-for-city" className="Portfolio-Image" />
+
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Celcius Weather App</p>
+                    </div>
+                    <div className="content">
+                    Celcius Weather App is a weather display application made with 
+                    React, Await & Async, Bootstrap, and OpenWeatherMap API.
+                    <div className="SocialMedia-Icons">
+                   <a href="https://github.com/cydneypo034/celciusweatherapp"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://celciusweather.netlify.app/"><img src={netlify} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                
+                </div>
+                </div>
+
+                <div className="column">
                <div className="card">
                <img src={CrownClothes} alt="clothing-store-website-with-5-shopping-categories" className="Portfolio-Image" />
 
@@ -42,30 +111,6 @@ export default class Portfolio extends Component {
                    
                 </div>
                </div>
-                
-
-               <div className="column">
-                <div className="card">
-                <img src={FiaworldPage} alt="website-with-three-artists-and-FIA-company-description" className="Portfolio-Image" />
-
-                <div className="overlay">
-                <div className="card-content">
-                    <div className="media-content">
-                        <p className="title is-4">Fiaworld Productions</p>
-                    </div>
-                    <div className="content">
-                    Fiaworld.com is a production company website made with 
-                    React, React Router DOM, Python, SQL, Django Rest Framework and Express.Js.
-                    <div className="SocialMedia-Icons">
-                   <a href="https://github.com/cydneypo034/fiaworld-project"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://fierce-mountain-28176.herokuapp.com"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                
-                </div>
-                </div>
 
 
                 <div className="column">
@@ -88,54 +133,6 @@ export default class Portfolio extends Component {
                 </div>
                 </div>
                
-                </div>
-                </div>
-
-
-                <div className="column">
-                <div className="card">
-                <img src={ArtistPocket} alt="website-with-paintbrush-strokes" className="Portfolio-Image" />
-
-                <div className="overlay">
-                <div className="card-content">
-                    <div className="media-content">
-                        <p className="title is-4">The Artist's Pocket Database</p>
-                    </div>
-                    <div className="content">
-                    An Artist's Pocket Database is an art store directory
-                    made with Handlebars.Js, Mongoose, Mongo DB and Bootstrap.
-                    <div className="SocialMedia-Icons">
-                    <a href="https://github.com/cydneypo034/artist-app"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://vast-dusk-81442.herokuapp.com/artstore"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-               
-                </div>
-                </div>
-
-
-                <div className="column">
-                <div className="card">
-                <img src={MySimonSays} alt="site-with-ponies-in-sqaures" className="Portfolio-Image" />
-
-                <div className="overlay">
-                <div className="card-content">
-                    <div className="media-content">
-                        <p className="title is-4">My Best Friend Says</p>
-                    </div>
-                    <div className="content">
-                    My Best Friend Says is a rendition of the Simon Says game featuring My Little Pony 
-                    characters made with HTML, CSS and ES6 JavaScript.
-                    <div className="SocialMedia-Icons">
-                    <a href="https://github.com/cydneypo034/mybestfriendsays"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://adoring-bhaskara-ff6b52.netlify.com/"><img src={netlify} alt="heroku-logo" height="50px" width="50px"/></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                
                 </div>
                 </div>
 
