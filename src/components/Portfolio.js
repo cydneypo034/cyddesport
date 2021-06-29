@@ -6,7 +6,8 @@ import Feminaku from '../components/images/feminakufrontpage.png';
 import MySimonSays from '../components/images/littleponyphoto.png';
 import GitHubLogo from '../components/images/githublogo.png';
 import HerokuLogo from '../components/images/heroku.png';
-import netlify from '../components/images/logomark.png';
+import NetlifyLogo from '../components/images/logomark.png';
+import WebsiteLogo from '../components/images/website-logo.png';
 
 export default class Portfolio extends Component {
     render () {
@@ -32,8 +33,8 @@ export default class Portfolio extends Component {
                     Cydney Pollard's Portfolio is a digital portfolio
                     made with React, React Router DOM, Bulma and Bootstrap.
                     <div className="SocialMedia-Icons">
-                    <a href="https://github.com/cydneypo034/artist-app"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://vast-dusk-81442.herokuapp.com/artstore"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    <a href="https://github.com/cydneypo034/cyddesport"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://cydneypo034.github.io/cyddesport/#/"><img src={WebsiteLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
                     </div>
                 </div>
@@ -56,7 +57,7 @@ export default class Portfolio extends Component {
                     characters made with HTML, CSS and ES6 JavaScript.
                     <div className="SocialMedia-Icons">
                     <a href="https://github.com/cydneypo034/mybestfriendsays"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://adoring-bhaskara-ff6b52.netlify.com/"><img src={netlify} alt="heroku-logo" height="50px" width="50px"/></a>
+                    <a href="https://adoring-bhaskara-ff6b52.netlify.com/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
                     </div>
                 </div>
@@ -80,7 +81,7 @@ export default class Portfolio extends Component {
                     React, Await & Async, Bootstrap, and OpenWeatherMap API.
                     <div className="SocialMedia-Icons">
                    <a href="https://github.com/cydneypo034/celciusweatherapp"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://celciusweather.netlify.app/"><img src={netlify} alt="heroku-logo" height="50px" width="50px"/></a>
+                    <a href="https://celciusweather.netlify.app/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
                     </div>
                 </div>
