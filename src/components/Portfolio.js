@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import CydneyPortfolio from '../components/images/cydneyportfolioimage.png';
 import CrownClothes from '../components/images/crownclothesproj.png';
 import WeatherPage from '../components/images/weatherphoto.png';
-import Feminaku from '../components/images/feminakufrontpage.png';
+import AnimeBae from '../components/images/animebaephoto.png';
 import MySimonSays from '../components/images/littleponyphoto.png';
 import GitHubLogo from '../components/images/githublogo.png';
 import HerokuLogo from '../components/images/heroku.png';
@@ -14,11 +14,35 @@ export default class Portfolio extends Component {
         return (
             <div>
                 <h1 className="DocFont">my portfolio</h1>
-                <h2 className="DocSubFont">Below is a list of my web applications I've completed from July 2019 until now.</h2>
+                <h2 className="DocSubFont">Below is a list of my web applications 
+                I've completed from my time in coding bootcamp until now.</h2>
             
             <section>
                 
                 <div className="columns is-multiline">
+
+                <div className="column">
+                <div className="card">
+                <img src={AnimeBae} alt="website-page-with-anime-girl" className="Portfolio-Image" />
+
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Anime Bae MERN App</p>
+                    </div>
+                    <div className="content">
+                    Anime Bae is an CRUD database application made with 
+                    React, React Router DOM, Mongoose, MDBootstrap, and Mongo DB.
+                    <div className="SocialMedia-Icons">
+                    <a href="https://github.com/cydneypo034/animebaedeaux"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://animebaeapp.herokuapp.com/"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+               
+                </div>
+                </div>
 
                 <div className="column">
                 <div className="card">
@@ -74,10 +98,10 @@ export default class Portfolio extends Component {
                 <div className="overlay">
                 <div className="card-content">
                     <div className="media-content">
-                        <p className="title is-4">Celcius Weather App</p>
+                        <p className="title is-4">Celcius Weather API App</p>
                     </div>
                     <div className="content">
-                    Celcius Weather App is a weather display application made with 
+                    Celcius Weather API App is a weather display application made with 
                     React, Await & Async, Bootstrap, and OpenWeatherMap API.
                     <div className="SocialMedia-Icons">
                    <a href="https://github.com/cydneypo034/celciusweatherapp"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
@@ -90,52 +114,7 @@ export default class Portfolio extends Component {
                 </div>
                 </div>
 
-                <div className="column">
-               <div className="card">
-               <img src={CrownClothes} alt="clothing-store-website-with-5-shopping-categories" className="Portfolio-Image" />
-
-                   <div className="overlay">
-                   <div className="card-content">
-                    <div className="media-content">
-                        <p className="title is-4">CRWN Clothing Ltd.</p>
-                        </div>
-                    <div className="content">
-                    CRWN Clothing Ltd. is a e-commerce fashion website made with
-                     React, React Router DOM, React Redux, Stripe API, Firebase, and Reselect. 
-                     <div className="SocialMedia-Icons">
-                    <a href="https://github.com/cydneypo034/crown-clothing"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://crownclothes.herokuapp.com"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                   
-                </div>
-               </div>
-
-
-                <div className="column">
-                <div className="card">
-                <img src={Feminaku} alt="website-page-with-anime-girl" className="Portfolio-Image" />
-
-                <div className="overlay">
-                <div className="card-content">
-                    <div className="media-content">
-                        <p className="title is-4">Feminaku Social Database</p>
-                    </div>
-                    <div className="content">
-                    Feminaku Social Database is an social media application made with 
-                    React, React Router DOM, Mongoose, MDBootstrap, and Mongo DB.
-                    <div className="SocialMedia-Icons">
-                    <a href="https://github.com/cydneypo034/feminakutwo"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://feminaku.herokuapp.com/"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-               
-                </div>
-                </div>
+                
 
 
                 </div>
