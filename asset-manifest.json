@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cyddesport/static/css/main.1867db43.chunk.css",
-    "main.js": "/cyddesport/static/js/main.c625caa9.chunk.js",
-    "main.js.map": "/cyddesport/static/js/main.c625caa9.chunk.js.map",
+    "main.css": "/cyddesport/static/css/main.7d055342.chunk.css",
+    "main.js": "/cyddesport/static/js/main.f45cde60.chunk.js",
+    "main.js.map": "/cyddesport/static/js/main.f45cde60.chunk.js.map",
     "runtime-main.js": "/cyddesport/static/js/runtime-main.4fbfe6f9.js",
     "runtime-main.js.map": "/cyddesport/static/js/runtime-main.4fbfe6f9.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/cyddesport/static/css/2.4c97ca4f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.2a6c6303.chunk.js.map": "/cyddesport/static/js/3.2a6c6303.chunk.js.map",
     "index.html": "/cyddesport/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/cyddesport/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.1867db43.chunk.css.map": "/cyddesport/static/css/main.1867db43.chunk.css.map",
+    "static/css/main.7d055342.chunk.css.map": "/cyddesport/static/css/main.7d055342.chunk.css.map",
     "static/js/2.14ecc06c.chunk.js.LICENSE.txt": "/cyddesport/static/js/2.14ecc06c.chunk.js.LICENSE.txt",
     "static/media/CBDS-Pdf.a53c9a43.pdf": "/cyddesport/static/media/CBDS-Pdf.a53c9a43.pdf",
     "static/media/CCpdf.5002982c.pdf": "/cyddesport/static/media/CCpdf.5002982c.pdf",
@@ -27,10 +27,10 @@
     "static/media/boostofjoybrand.39e731e8.png": "/cyddesport/static/media/boostofjoybrand.39e731e8.png",
     "static/media/cbds-logo.88fb2e54.png": "/cyddesport/static/media/cbds-logo.88fb2e54.png",
     "static/media/closetconfidencepng.a62c58fa.png": "/cyddesport/static/media/closetconfidencepng.a62c58fa.png",
-    "static/media/crownclothesproj.d8452840.png": "/cyddesport/static/media/crownclothesproj.d8452840.png",
     "static/media/cwowlogo.ae5ebe79.jpg": "/cyddesport/static/media/cwowlogo.ae5ebe79.jpg",
     "static/media/cydneyaboutmephoto.af036bab.png": "/cyddesport/static/media/cydneyaboutmephoto.af036bab.png",
     "static/media/cydneyportfolioimage.4589c00b.png": "/cyddesport/static/media/cydneyportfolioimage.4589c00b.png",
+    "static/media/feminakuhomepage.f1b33a61.png": "/cyddesport/static/media/feminakuhomepage.f1b33a61.png",
     "static/media/littleponyphoto.df5f5fee.png": "/cyddesport/static/media/littleponyphoto.df5f5fee.png",
     "static/media/logomark.ccce5884.png": "/cyddesport/static/media/logomark.ccce5884.png",
     "static/media/moonlotuslogo.70e178e7.png": "/cyddesport/static/media/moonlotuslogo.70e178e7.png",
@@ -42,7 +42,7 @@
     "static/js/runtime-main.4fbfe6f9.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.14ecc06c.chunk.js",
-    "static/css/main.1867db43.chunk.css",
-    "static/js/main.c625caa9.chunk.js"
+    "static/css/main.7d055342.chunk.css",
+    "static/js/main.f45cde60.chunk.js"
   ]
 }
