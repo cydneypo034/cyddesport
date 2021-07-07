@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import CydneyPortfolio from '../components/images/cydneyportfolioimage.png';
-import CrownClothes from '../components/images/crownclothesproj.png';
 import WeatherPage from '../components/images/weatherphoto.png';
+import Feminaku from '../components/images/feminakuhomepage.png';
 import AnimeBae from '../components/images/animebaephoto.png';
 import MySimonSays from '../components/images/littleponyphoto.png';
 import GitHubLogo from '../components/images/githublogo.png';
@@ -43,6 +43,30 @@ export default class Portfolio extends Component {
                
                 </div>
                 </div>
+
+                <div className="column">
+                <div className="card">
+                <img src={Feminaku} alt="website-page-with-anime-girl" className="Portfolio-Image" />
+
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Feminaku App</p>
+                    </div>
+                    <div className="content">
+                    Feminaku is a front-end web application made with 
+                    React, React Router DOM, MDBootstrap,and Bulma.
+                    <div className="SocialMedia-Icons">
+                    <a href="https://github.com/cydneypo034/feminakubabes"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://feminakubabes.netlify.app/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+               
+                </div>
+                </div>
+                
 
                 <div className="column">
                 <div className="card">
