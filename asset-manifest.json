@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cyddesport/static/css/main.7d055342.chunk.css",
-    "main.js": "/cyddesport/static/js/main.f45cde60.chunk.js",
-    "main.js.map": "/cyddesport/static/js/main.f45cde60.chunk.js.map",
+    "main.js": "/cyddesport/static/js/main.f3310778.chunk.js",
+    "main.js.map": "/cyddesport/static/js/main.f3310778.chunk.js.map",
     "runtime-main.js": "/cyddesport/static/js/runtime-main.4fbfe6f9.js",
     "runtime-main.js.map": "/cyddesport/static/js/runtime-main.4fbfe6f9.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/cyddesport/static/css/2.4c97ca4f.chunk.css",
@@ -22,7 +22,7 @@
     "static/media/IGStrategyCC.f38f9de0.pdf": "/cyddesport/static/media/IGStrategyCC.f38f9de0.pdf",
     "static/media/MLDSPDF.de407cbe.pdf": "/cyddesport/static/media/MLDSPDF.de407cbe.pdf",
     "static/media/PESkin-PDF.7483e859.pdf": "/cyddesport/static/media/PESkin-PDF.7483e859.pdf",
-    "static/media/animebaephoto.197dfdd7.png": "/cyddesport/static/media/animebaephoto.197dfdd7.png",
+    "static/media/animebaephoto.ed9576c5.png": "/cyddesport/static/media/animebaephoto.ed9576c5.png",
     "static/media/boostofjoy-PDF.d22525eb.pdf": "/cyddesport/static/media/boostofjoy-PDF.d22525eb.pdf",
     "static/media/boostofjoybrand.39e731e8.png": "/cyddesport/static/media/boostofjoybrand.39e731e8.png",
     "static/media/cbds-logo.88fb2e54.png": "/cyddesport/static/media/cbds-logo.88fb2e54.png",
@@ -35,7 +35,7 @@
     "static/media/logomark.ccce5884.png": "/cyddesport/static/media/logomark.ccce5884.png",
     "static/media/moonlotuslogo.70e178e7.png": "/cyddesport/static/media/moonlotuslogo.70e178e7.png",
     "static/media/purposeedenskin.153ca885.png": "/cyddesport/static/media/purposeedenskin.153ca885.png",
-    "static/media/weatherphoto.da163ad1.png": "/cyddesport/static/media/weatherphoto.da163ad1.png",
+    "static/media/weatherphoto.5ab1be2c.png": "/cyddesport/static/media/weatherphoto.5ab1be2c.png",
     "static/media/website-logo.2a1752f9.png": "/cyddesport/static/media/website-logo.2a1752f9.png"
   },
   "entrypoints": [
@@ -43,6 +43,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.14ecc06c.chunk.js",
     "static/css/main.7d055342.chunk.css",
-    "static/js/main.f45cde60.chunk.js"
+    "static/js/main.f3310778.chunk.js"
   ]
 }
