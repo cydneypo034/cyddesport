@@ -6,6 +6,7 @@ import BoostOfJoy from './images/boostofjoybrand.png';
 import Closetconfidence from './images/closetconfidencepng.png';
 import MoonLotusLogo from '../components/images/moonlotuslogo.png';
 import CWOWLogo from '../components/images/cwowlogo.jpg';
+import ARSLogo from '../components/images/ars-logo.png';
 import ChurchWowPDF from '../components/uploads/CWOWpdf.pdf';
 import CydneyBDSPDF from '../components/uploads/CBDS-Pdf.pdf';
 import MLDSPDF from '../components/uploads/MLDSPDF.pdf';
@@ -13,6 +14,8 @@ import PurposeSkinPDF from '../components/uploads/PESkin-PDF.pdf';
 import BoostofJoyPDF from '../components/uploads/boostofjoy-PDF.pdf';
 import CConfidencePDF from '../components/uploads/CCpdf.pdf';
 import CCstrategyPDF from '../components/uploads/IGStrategyCC.pdf';
+import AestheticRightPDF from '../components/uploads/ars-PRESENTFILE.pdf';
+import ARSWorkbookPDF from '../components/uploads/DISCOVERWORKBOOK.pdf';
 
 export default class GraphicDesign extends Component {
     render() {
@@ -24,6 +27,33 @@ export default class GraphicDesign extends Component {
             <section>
                 
                 <div className="columns is-multiline">
+
+                <div className="column">
+                <div className="card" style={{ height: '25rem'}}>
+                <img src={ARSLogo} alt="green-logo-with-rectangle" 
+                className="Portfolio-Image" style={{ height: '25rem'}}/>
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Aesthetically Righteous Studios</p>
+                    </div>
+                    <div className="content">
+                    Aesthetically Righteous Studios is an art studio located in Atlanta, Georgia. They're main focus is providing
+                    artwork and designs that displays God's heart for His people. Below is a PDF of one of their workbooks
+                    they use to aid their clients in finding their ideal clients and discovering what pain points to solve for them.
+                    </div>
+
+                    <div className="SocialMedia-Icons">
+                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3', margin: '10px'}}
+                     href={AestheticRightPDF} target="_blank">View Aesthetically Righteous PDF</Button>
+
+                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
+                     href={ARSWorkbookPDF} target="_blank">View ARS Discover Workbook PDF</Button>
+                     </div>
+                </div>
+                </div>
+                </div>
+                </div>
 
                <div className="column">
                <div className="card" style={{ height: '25rem'}}>
@@ -78,7 +108,7 @@ export default class GraphicDesign extends Component {
 
                 <div className="column">
                 <div className="card" style={{ height: '25rem'}}>
-                <img src={BoostOfJoy} alt="website-page-with-anime-girl" 
+                <img src={BoostOfJoy} alt="flower-logos-with-stars-and-font" 
                 className="Portfolio-Image" style={{ height: '25rem'}}/>
                 <div className="overlay">
                 <div className="card-content">
@@ -103,7 +133,7 @@ export default class GraphicDesign extends Component {
 
                 <div className="column">
                 <div className="card" style={{ height: '25rem'}}>
-                <img src={MoonLotusLogo} alt="website-page-with-anime-girl" 
+                <img src={MoonLotusLogo} alt="sun-flower-logo-with-moon-details" 
                 className="Portfolio-Image" style={{ height: '25rem'}}/>
                 <div className="overlay">
                 <div className="card-content">
@@ -127,7 +157,7 @@ export default class GraphicDesign extends Component {
 
                 <div className="column">
                 <div className="card" style={{ height: '25rem'}}>
-                <img src={Closetconfidence} alt="website-page-with-anime-girl" 
+                <img src={Closetconfidence} alt="logo-with-clothes-hanger-and-crown" 
                 className="Portfolio-Image" style={{ height: '25rem'}}/>
                 <div className="overlay">
                 <div className="card-content">
@@ -155,7 +185,7 @@ export default class GraphicDesign extends Component {
 
                 <div className="column">
                 <div className="card" style={{ height: '25rem'}}>
-                <img src={CWOWLogo} alt="website-page-with-anime-girl" 
+                <img src={CWOWLogo} alt="black-and-white-logo-with-c" 
                 className="Portfolio-Image" style={{ height: '25rem'}}/>
                 <div className="overlay">
                 <div className="card-content">
