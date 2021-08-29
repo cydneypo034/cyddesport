@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cyddesport/static/css/main.bf97002d.chunk.css",
-    "main.js": "/cyddesport/static/js/main.bbdedf20.chunk.js",
-    "main.js.map": "/cyddesport/static/js/main.bbdedf20.chunk.js.map",
+    "main.js": "/cyddesport/static/js/main.7fddcd14.chunk.js",
+    "main.js.map": "/cyddesport/static/js/main.7fddcd14.chunk.js.map",
     "runtime-main.js": "/cyddesport/static/js/runtime-main.2bbbdeae.js",
     "runtime-main.js.map": "/cyddesport/static/js/runtime-main.2bbbdeae.js.map",
     "static/css/2.27dd871e.chunk.css": "/cyddesport/static/css/2.27dd871e.chunk.css",
@@ -33,6 +33,8 @@
     "static/media/cwowlogo.ae5ebe79.jpg": "/cyddesport/static/media/cwowlogo.ae5ebe79.jpg",
     "static/media/cydneyaboutmephoto.af036bab.png": "/cyddesport/static/media/cydneyaboutmephoto.af036bab.png",
     "static/media/cydneyportfolioimage.4589c00b.png": "/cyddesport/static/media/cydneyportfolioimage.4589c00b.png",
+    "static/media/exhibitionflyer.42957661.png": "/cyddesport/static/media/exhibitionflyer.42957661.png",
+    "static/media/exhibitionflyer.87fe2ff2.pdf": "/cyddesport/static/media/exhibitionflyer.87fe2ff2.pdf",
     "static/media/feminakuhomepage.f1b33a61.png": "/cyddesport/static/media/feminakuhomepage.f1b33a61.png",
     "static/media/littleponyphoto.df5f5fee.png": "/cyddesport/static/media/littleponyphoto.df5f5fee.png",
     "static/media/logomark.ccce5884.png": "/cyddesport/static/media/logomark.ccce5884.png",
@@ -46,6 +48,6 @@
     "static/css/2.27dd871e.chunk.css",
     "static/js/2.a088c275.chunk.js",
     "static/css/main.bf97002d.chunk.css",
-    "static/js/main.bbdedf20.chunk.js"
+    "static/js/main.7fddcd14.chunk.js"
   ]
 }
