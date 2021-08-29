@@ -7,7 +7,9 @@ import Closetconfidence from './images/closetconfidencepng.png';
 import MoonLotusLogo from '../components/images/moonlotuslogo.png';
 import CWOWLogo from '../components/images/cwowlogo.jpg';
 import ARSLogo from '../components/images/ars-logo.png';
+import ExhibitFlyer from '../components/images/exhibitionflyer.png';
 import ChurchWowPDF from '../components/uploads/CWOWpdf.pdf';
+import ExhibitPDF from '../components/uploads/exhibitionflyer.pdf';
 import CydneyBDSPDF from '../components/uploads/CBDS-Pdf.pdf';
 import MLDSPDF from '../components/uploads/MLDSPDF.pdf';
 import PurposeSkinPDF from '../components/uploads/PESkin-PDF.pdf';
@@ -176,6 +178,28 @@ export default class GraphicDesign extends Component {
                      
                      <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
                      href={CCstrategyPDF} target="_blank">View Closet Confidence IG Strategy</Button>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+
+                <div className="column">
+                <div className="card" style={{ height: '25rem'}}>
+                <img src={ExhibitFlyer} alt="colorful-background-with-flyer-in-middle" 
+                className="Portfolio-Image" style={{ height: '25rem'}}/>
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">College Art Exhibition Flyers</p>
+                    </div>
+                    <div className="content">
+                    In 2018, I was assigned to create flyers for my college artshow exhibition 
+                    at the University of West Georgia. I used Adobe InDesign to design all flyer variations.
+                    </div>
+                    <div className="SocialMedia-Icons">
+                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
+                     href={ExhibitPDF} target="_blank">View Exhibition Flyers PDF</Button>
                     </div>
                 </div>
                 </div>
