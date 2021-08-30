@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cyddesport/static/css/main.bf97002d.chunk.css",
-    "main.js": "/cyddesport/static/js/main.7fddcd14.chunk.js",
-    "main.js.map": "/cyddesport/static/js/main.7fddcd14.chunk.js.map",
+    "main.js": "/cyddesport/static/js/main.3ebf3546.chunk.js",
+    "main.js.map": "/cyddesport/static/js/main.3ebf3546.chunk.js.map",
     "runtime-main.js": "/cyddesport/static/js/runtime-main.2bbbdeae.js",
     "runtime-main.js.map": "/cyddesport/static/js/runtime-main.2bbbdeae.js.map",
     "static/css/2.27dd871e.chunk.css": "/cyddesport/static/css/2.27dd871e.chunk.css",
@@ -17,8 +17,10 @@
     "static/media/CBDS-Pdf.a53c9a43.pdf": "/cyddesport/static/media/CBDS-Pdf.a53c9a43.pdf",
     "static/media/CCpdf.5002982c.pdf": "/cyddesport/static/media/CCpdf.5002982c.pdf",
     "static/media/CWOWpdf.e0c2157c.pdf": "/cyddesport/static/media/CWOWpdf.e0c2157c.pdf",
-    "static/media/CYDNEYPOLLARD2021TECHRESUME.801300d5.pdf": "/cyddesport/static/media/CYDNEYPOLLARD2021TECHRESUME.801300d5.pdf",
+    "static/media/CydneyPollardCVAugust2021.a5006f7e.pdf": "/cyddesport/static/media/CydneyPollardCVAugust2021.a5006f7e.pdf",
     "static/media/DISCOVERWORKBOOK.4fb5a5af.pdf": "/cyddesport/static/media/DISCOVERWORKBOOK.4fb5a5af.pdf",
+    "static/media/GlassCowPackaging.70807cfa.png": "/cyddesport/static/media/GlassCowPackaging.70807cfa.png",
+    "static/media/GlassCowPackaging.a0baaa13.pdf": "/cyddesport/static/media/GlassCowPackaging.a0baaa13.pdf",
     "static/media/App.css": "/cyddesport/static/media/Grovana-MediumRound.ec52f0f5.ttf",
     "static/media/IGStrategyCC.f38f9de0.pdf": "/cyddesport/static/media/IGStrategyCC.f38f9de0.pdf",
     "static/media/MLDSPDF.de407cbe.pdf": "/cyddesport/static/media/MLDSPDF.de407cbe.pdf",
@@ -48,6 +50,6 @@
     "static/css/2.27dd871e.chunk.css",
     "static/js/2.a088c275.chunk.js",
     "static/css/main.bf97002d.chunk.css",
-    "static/js/main.7fddcd14.chunk.js"
+    "static/js/main.3ebf3546.chunk.js"
   ]
 }
