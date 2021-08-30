@@ -8,6 +8,8 @@ import MoonLotusLogo from '../components/images/moonlotuslogo.png';
 import CWOWLogo from '../components/images/cwowlogo.jpg';
 import ARSLogo from '../components/images/ars-logo.png';
 import ExhibitFlyer from '../components/images/exhibitionflyer.png';
+import GlassCowLogo from '../components/images/GlassCowPackaging.png';
+
 import ChurchWowPDF from '../components/uploads/CWOWpdf.pdf';
 import ExhibitPDF from '../components/uploads/exhibitionflyer.pdf';
 import CydneyBDSPDF from '../components/uploads/CBDS-Pdf.pdf';
@@ -18,6 +20,7 @@ import CConfidencePDF from '../components/uploads/CCpdf.pdf';
 import CCstrategyPDF from '../components/uploads/IGStrategyCC.pdf';
 import AestheticRightPDF from '../components/uploads/ars-PRESENTFILE.pdf';
 import ARSWorkbookPDF from '../components/uploads/DISCOVERWORKBOOK.pdf';
+import GlassCowPackagingPDF from '../components/uploads/GlassCowPackaging.pdf';
 
 export default class GraphicDesign extends Component {
     render() {
@@ -224,6 +227,30 @@ export default class GraphicDesign extends Component {
                     <div className="SocialMedia-Icons">
                     <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
                      href={ChurchWowPDF} target="_blank">View CWOW Church Flyers PDF</Button>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+
+
+                <div className="column">
+                <div className="card" style={{ height: '25rem'}}>
+                <img src={GlassCowLogo} alt="glass-cow-logo-handdrawn" 
+                className="Portfolio-Image" style={{ height: '25rem'}}/>
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Glass Cow Packaging</p>
+                    </div>
+                    <div className="content">
+                    Glass Cow is a project I completed in 2014 while enrolled in my first graphic design class 
+                    at Jacksonville State University. In this involves the packaging layout of hand-drawn logo and illustration work
+                    with final soap packaging and photoshoot.
+                    </div>
+                    <div className="SocialMedia-Icons">
+                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}}
+                     href={GlassCowPackagingPDF} target="_blank">View Glass Cow Packaging PDF</Button>
                     </div>
                 </div>
                 </div>
