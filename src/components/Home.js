@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Button} from 'react-bootstrap';
-import PDF from '../components/uploads/CydneyPollardCVAugust2021.pdf';
+import PDF from '../components/uploads/cydneypollardCVNOV2021.pdf';
 
 
 export default class Home extends Component {
