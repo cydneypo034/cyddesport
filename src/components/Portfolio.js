@@ -90,53 +90,6 @@ export default class Portfolio extends Component {
                
                 </div>
                 </div>
-                
-                <div className="column">
-                <div className="card">
-                <img src={MySimonSays} alt="site-with-ponies-in-sqaures" className="Portfolio-Image" />
-
-                <div className="overlay">
-                <div className="card-content">
-                    <div className="media-content">
-                        <p className="title is-4">My Best Friend Says</p>
-                    </div>
-                    <div className="content">
-                    My Best Friend Says is a rendition of the Simon Says game featuring My Little Pony 
-                    characters made with HTML, CSS and ES6 JavaScript.
-                    <div className="SocialMedia-Icons">
-                    <a href="https://github.com/cydneypo034/mybestfriendsays"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://adoring-bhaskara-ff6b52.netlify.com/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                
-                </div>
-                </div>
-                
-
-               <div className="column">
-                <div className="card">
-                <img src={WeatherPage} alt="website-with-weather-display-for-city" className="Portfolio-Image" />
-
-                <div className="overlay">
-                <div className="card-content">
-                    <div className="media-content">
-                        <p className="title is-4">Celcius Weather API App</p>
-                    </div>
-                    <div className="content">
-                    Celcius Weather API App is a weather display application made with 
-                    React, Await & Async, Bootstrap, and OpenWeatherMap API.
-                    <div className="SocialMedia-Icons">
-                   <a href="https://github.com/cydneypo034/celciusweatherapp"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://celciusweather.netlify.app/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                
-                </div>
-                </div>
 
                 
 
