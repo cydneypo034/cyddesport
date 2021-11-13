@@ -24,7 +24,7 @@ export default class Skills extends Component {
                 <section className="hero is-small">
                     <div className="hero-body">
                     <p className="DocSmallFont">Front End Frameworks</p>
-                    <p className="DocSubSmallFont">React.js, React Redux, React Router DOM, Reselect</p>
+                    <p className="DocSubSmallFont">React.js, React Router DOM</p>
                     </div>
                 </section>
 

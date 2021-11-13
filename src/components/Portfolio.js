@@ -13,9 +13,7 @@ export default class Portfolio extends Component {
     render () {
         return (
             <div>
-                <h1 className="DocFont">my portfolio</h1>
-                <h2 className="DocSubFont">Below is a list of my web applications 
-                I've completed from my time in coding bootcamp until now.</h2>
+                <h1 className="DocFont">my developer portfolio</h1>
             
             <section>
                 
