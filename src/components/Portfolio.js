@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import CydneyPortfolio from '../components/images/cydneyportfolioimage.png';
-import WeatherPage from '../components/images/weatherphoto.png';
+import CrunchyrollPage from '../components/images/crunchyroll-loginpage.png';
 import Feminaku from '../components/images/feminakuhomepage.png';
 import AnimeBae from '../components/images/animebaephoto.png';
-import MySimonSays from '../components/images/littleponyphoto.png';
 import GitHubLogo from '../components/images/githublogo.png';
 import HerokuLogo from '../components/images/heroku.png';
 import NetlifyLogo from '../components/images/logomark.png';
@@ -89,7 +88,29 @@ export default class Portfolio extends Component {
                 </div>
                 </div>
 
-                
+                <div className="column">
+                <div className="card">
+                <img src={CrunchyrollPage} alt="crunchyroll-login-page" className="Portfolio-Image" />
+
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Crunchyroll Login Page</p>
+                    </div>
+                    <div className="content">
+                    The Crunchyroll Sign In Page Clone is a project utilizing HTML, 
+                    CSS and vanilla JavaScript to compose a clone version of the sign up account 
+                    page for Crunchyroll, an anime streaming service.
+                    <div className="SocialMedia-Icons">
+                    <a href="https://github.com/cydneypo034/crunchyrolllogin"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://crunchyroll-login.netlify.app/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+               
+                </div>
+                </div>
 
 
                 </div>
