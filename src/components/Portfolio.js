@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import CydneyPortfolio from '../components/images/cydneyportfolioimage.png';
 import CrunchyrollPage from '../components/images/crunchyroll-loginpage.png';
+import CrownClothing from '../components/images/crownclothingapp.png';
 import JumpGame from '../components/images/thejumpgame.png';
 import AnimeBae from '../components/images/animebaephoto.png';
 import GitHubLogo from '../components/images/githublogo.png';
@@ -25,7 +26,7 @@ export default class Portfolio extends Component {
                 <div className="overlay">
                 <div className="card-content">
                     <div className="media-content">
-                        <p className="title is-4">Anime Bae MERN App</p>
+                        <p className="title is-4">Anime Bae App</p>
                     </div>
                     <div className="content">
                     Anime Bae is an CRUD database application made with 
@@ -41,9 +42,33 @@ export default class Portfolio extends Component {
                 </div>
                 </div>
 
+
                 <div className="column">
                 <div className="card">
-                <img src={JumpGame} alt="website-page-with-anime-girl" className="Portfolio-Image" />
+                <img src={CrownClothing} alt="website-page-with-clothing-sections" className="Portfolio-Image" />
+
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Crvwn Clothing App</p>
+                    </div>
+                    <div className="content">
+                    Crvwn Clothing is a front-end E-commerce application that utilizes React Redux and Hooks, Firebase Auth, and StripeAPI. 
+                    <div className="SocialMedia-Icons">
+                    <a href="https://github.com/cydneypo034/crown-clothing"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://crownclothes.herokuapp.com/"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+               
+                </div>
+                </div>
+
+
+                <div className="column">
+                <div className="card">
+                <img src={JumpGame} alt="website-page-with-brown-squares" className="Portfolio-Image" />
 
                 <div className="overlay">
                 <div className="card-content">
