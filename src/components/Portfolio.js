@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import CydneyPortfolio from '../components/images/cydneyportfolioimage.png';
 import CrunchyrollPage from '../components/images/crunchyroll-loginpage.png';
-import Feminaku from '../components/images/feminakuhomepage.png';
+import JumpGame from '../components/images/thejumpgame.png';
 import AnimeBae from '../components/images/animebaephoto.png';
 import GitHubLogo from '../components/images/githublogo.png';
 import HerokuLogo from '../components/images/heroku.png';
@@ -43,19 +43,19 @@ export default class Portfolio extends Component {
 
                 <div className="column">
                 <div className="card">
-                <img src={Feminaku} alt="website-page-with-anime-girl" className="Portfolio-Image" />
+                <img src={JumpGame} alt="website-page-with-anime-girl" className="Portfolio-Image" />
 
                 <div className="overlay">
                 <div className="card-content">
                     <div className="media-content">
-                        <p className="title is-4">Feminaku App</p>
+                        <p className="title is-4">Jump Game</p>
                     </div>
                     <div className="content">
-                    Feminaku is a front-end web application made with 
-                    React, React Router DOM, MDBootstrap,and Bulma.
+                    The Jump Game is a game developed with HTML, CSS and Javascript, in which the player must jump across
+                    block to achieve a high score.
                     <div className="SocialMedia-Icons">
-                    <a href="https://github.com/cydneypo034/feminakubabes"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://feminakubabes.netlify.app/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    <a href="https://github.com/cydneypo034/jumpgame"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://the-jump-game.netlify.app"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
                     </div>
                 </div>
