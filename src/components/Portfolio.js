@@ -41,53 +41,6 @@ export default class Portfolio extends Component {
                
                 </div>
                 </div>
-
-
-                <div className="column">
-                <div className="card">
-                <img src={CrownClothing} alt="website-page-with-clothing-sections" className="Portfolio-Image" />
-
-                <div className="overlay">
-                <div className="card-content">
-                    <div className="media-content">
-                        <p className="title is-4">Crvwn Clothing App</p>
-                    </div>
-                    <div className="content">
-                    Crvwn Clothing is a front-end E-commerce application that utilizes React Redux and Hooks, Firebase Auth, and StripeAPI. 
-                    <div className="SocialMedia-Icons">
-                    <a href="https://github.com/cydneypo034/crown-clothing"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://crownclothes.herokuapp.com/"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-               
-                </div>
-                </div>
-
-
-                <div className="column">
-                <div className="card">
-                <img src={JumpGame} alt="website-page-with-brown-squares" className="Portfolio-Image" />
-
-                <div className="overlay">
-                <div className="card-content">
-                    <div className="media-content">
-                        <p className="title is-4">Jump Game</p>
-                    </div>
-                    <div className="content">
-                    The Jump Game is a game developed with HTML, CSS and Javascript, in which the player must jump across
-                    block to achieve a high score.
-                    <div className="SocialMedia-Icons">
-                    <a href="https://github.com/cydneypo034/jumpgame"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
-                    <a href="https://the-jump-game.netlify.app"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/></a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-               
-                </div>
-                </div>
                 
 
                 <div className="column">
@@ -112,6 +65,8 @@ export default class Portfolio extends Component {
                
                 </div>
                 </div>
+
+
 
                 <div className="column">
                 <div className="card">
