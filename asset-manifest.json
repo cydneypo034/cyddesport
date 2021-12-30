@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cyddesport/static/css/main.bf97002d.chunk.css",
-    "main.js": "/cyddesport/static/js/main.2c3ae0bb.chunk.js",
-    "main.js.map": "/cyddesport/static/js/main.2c3ae0bb.chunk.js.map",
+    "main.js": "/cyddesport/static/js/main.20cf102e.chunk.js",
+    "main.js.map": "/cyddesport/static/js/main.20cf102e.chunk.js.map",
     "runtime-main.js": "/cyddesport/static/js/runtime-main.2bbbdeae.js",
     "runtime-main.js.map": "/cyddesport/static/js/runtime-main.2bbbdeae.js.map",
     "static/css/2.27dd871e.chunk.css": "/cyddesport/static/css/2.27dd871e.chunk.css",
@@ -20,6 +20,7 @@
     "static/media/cydneyaboutmephoto.af036bab.png": "/cyddesport/static/media/cydneyaboutmephoto.af036bab.png",
     "static/media/cydneypollardCVNOV2021.2f937189.pdf": "/cyddesport/static/media/cydneypollardCVNOV2021.2f937189.pdf",
     "static/media/cydneyportfolioimage.4589c00b.png": "/cyddesport/static/media/cydneyportfolioimage.4589c00b.png",
+    "static/media/ghibliclock.5b07028b.png": "/cyddesport/static/media/ghibliclock.5b07028b.png",
     "static/media/logomark.ccce5884.png": "/cyddesport/static/media/logomark.ccce5884.png",
     "static/media/website-logo.2a1752f9.png": "/cyddesport/static/media/website-logo.2a1752f9.png"
   },
@@ -28,6 +29,6 @@
     "static/css/2.27dd871e.chunk.css",
     "static/js/2.27a7873f.chunk.js",
     "static/css/main.bf97002d.chunk.css",
-    "static/js/main.2c3ae0bb.chunk.js"
+    "static/js/main.20cf102e.chunk.js"
   ]
 }
