@@ -101,7 +101,7 @@ export default class Portfolio extends Component {
                     </div>
                     <div className="content">
                     The Crunchyroll Sign In Page is a clone project based on 
-                    Crunchyroll.com's sign-in page built with HTML,<img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/> CSS and JavaScript.
+                    Crunchyroll.com's sign-in page built with HTML, CSS and JavaScript.
                     <div className="SocialMedia-Icons">
                     <a href="https://github.com/cydneypo034/crunchyrolllogin"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
                     <a href="https://crunchyroll-login.netlify.app/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/></a>
