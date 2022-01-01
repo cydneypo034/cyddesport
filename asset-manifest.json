@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cyddesport/static/css/main.bf97002d.chunk.css",
-    "main.js": "/cyddesport/static/js/main.7eea1804.chunk.js",
-    "main.js.map": "/cyddesport/static/js/main.7eea1804.chunk.js.map",
+    "main.js": "/cyddesport/static/js/main.bbcab607.chunk.js",
+    "main.js.map": "/cyddesport/static/js/main.bbcab607.chunk.js.map",
     "runtime-main.js": "/cyddesport/static/js/runtime-main.2bbbdeae.js",
     "runtime-main.js.map": "/cyddesport/static/js/runtime-main.2bbbdeae.js.map",
     "static/css/2.27dd871e.chunk.css": "/cyddesport/static/css/2.27dd871e.chunk.css",
@@ -22,6 +22,7 @@
     "static/media/cydneyportfolioimage.4589c00b.png": "/cyddesport/static/media/cydneyportfolioimage.4589c00b.png",
     "static/media/ghibliclock.5b07028b.png": "/cyddesport/static/media/ghibliclock.5b07028b.png",
     "static/media/logomark.ccce5884.png": "/cyddesport/static/media/logomark.ccce5884.png",
+    "static/media/thatgirlcodes.8f405e63.png": "/cyddesport/static/media/thatgirlcodes.8f405e63.png",
     "static/media/website-logo.2a1752f9.png": "/cyddesport/static/media/website-logo.2a1752f9.png"
   },
   "entrypoints": [
@@ -29,6 +30,6 @@
     "static/css/2.27dd871e.chunk.css",
     "static/js/2.27a7873f.chunk.js",
     "static/css/main.bf97002d.chunk.css",
-    "static/js/main.7eea1804.chunk.js"
+    "static/js/main.bbcab607.chunk.js"
   ]
 }
