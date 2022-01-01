@@ -3,6 +3,7 @@ import CydneyPortfolio from '../components/images/cydneyportfolioimage.png';
 import CrunchyrollPage from '../components/images/crunchyroll-loginpage.png';
 import AnimeBae from '../components/images/animebaephoto.png';
 import GhibliClock from '../components/images/ghibliclock.png';
+import ThatGirlCodes from '../components/images/thatgirlcodes.png';
 import GitHubLogo from '../components/images/githublogo.png';
 import HerokuLogo from '../components/images/heroku.png';
 import NetlifyLogo from '../components/images/logomark.png';
@@ -32,6 +33,29 @@ export default class Portfolio extends Component {
                     <div className="SocialMedia-Icons">
                     <a href="https://github.com/cydneypo034/myghibliclock"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
                     <a href="https://myghibliclock.netlify.app/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+               
+                </div>
+                </div>
+
+
+                <div className="column">
+                <div className="card">
+                <img src={ThatGirlCodes} alt="website-page-with-two-photos-with-black-girls" className="Portfolio-Image" />
+
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">That Girl Codes App</p>
+                    </div>
+                    <div className="content">
+                    That Girl Codes is an application that helps women network and find new resources to learn how to code.
+                    <div className="SocialMedia-Icons">
+                    <a href="https://github.com/cydneypo034/thatgirlcodes"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://thatgirlcodes.herokuapp.com/"><img src={HerokuLogo} alt="heroku-logo" height="50px" width="50px"/></a>
                     </div>
                     </div>
                 </div>
