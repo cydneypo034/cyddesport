@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/cyddesport/static/css/main.bf97002d.chunk.css",
-    "main.js": "/cyddesport/static/js/main.bbcab607.chunk.js",
-    "main.js.map": "/cyddesport/static/js/main.bbcab607.chunk.js.map",
+    "main.js": "/cyddesport/static/js/main.2765fb48.chunk.js",
+    "main.js.map": "/cyddesport/static/js/main.2765fb48.chunk.js.map",
     "runtime-main.js": "/cyddesport/static/js/runtime-main.2bbbdeae.js",
     "runtime-main.js.map": "/cyddesport/static/js/runtime-main.2bbbdeae.js.map",
     "static/css/2.27dd871e.chunk.css": "/cyddesport/static/css/2.27dd871e.chunk.css",
-    "static/js/2.27a7873f.chunk.js": "/cyddesport/static/js/2.27a7873f.chunk.js",
-    "static/js/2.27a7873f.chunk.js.map": "/cyddesport/static/js/2.27a7873f.chunk.js.map",
+    "static/js/2.a2fc32e4.chunk.js": "/cyddesport/static/js/2.a2fc32e4.chunk.js",
+    "static/js/2.a2fc32e4.chunk.js.map": "/cyddesport/static/js/2.a2fc32e4.chunk.js.map",
     "static/js/3.b04a6efe.chunk.js": "/cyddesport/static/js/3.b04a6efe.chunk.js",
     "static/js/3.b04a6efe.chunk.js.map": "/cyddesport/static/js/3.b04a6efe.chunk.js.map",
     "index.html": "/cyddesport/index.html",
     "static/css/2.27dd871e.chunk.css.map": "/cyddesport/static/css/2.27dd871e.chunk.css.map",
     "static/css/main.bf97002d.chunk.css.map": "/cyddesport/static/css/main.bf97002d.chunk.css.map",
-    "static/js/2.27a7873f.chunk.js.LICENSE.txt": "/cyddesport/static/js/2.27a7873f.chunk.js.LICENSE.txt",
+    "static/js/2.a2fc32e4.chunk.js.LICENSE.txt": "/cyddesport/static/js/2.a2fc32e4.chunk.js.LICENSE.txt",
     "static/media/App.css": "/cyddesport/static/media/Grovana-MediumRound.ec52f0f5.ttf",
     "static/media/animebaephoto.ed9576c5.png": "/cyddesport/static/media/animebaephoto.ed9576c5.png",
     "static/media/crunchyroll-loginpage.a15aa3cd.png": "/cyddesport/static/media/crunchyroll-loginpage.a15aa3cd.png",
     "static/media/cydneyaboutmephoto.af036bab.png": "/cyddesport/static/media/cydneyaboutmephoto.af036bab.png",
     "static/media/cydneypollardCVNOV2021.2f937189.pdf": "/cyddesport/static/media/cydneypollardCVNOV2021.2f937189.pdf",
     "static/media/cydneyportfolioimage.4589c00b.png": "/cyddesport/static/media/cydneyportfolioimage.4589c00b.png",
+    "static/media/feminakublog.903e64b7.png": "/cyddesport/static/media/feminakublog.903e64b7.png",
     "static/media/ghibliclock.5b07028b.png": "/cyddesport/static/media/ghibliclock.5b07028b.png",
     "static/media/logomark.ccce5884.png": "/cyddesport/static/media/logomark.ccce5884.png",
     "static/media/thatgirlcodes.8f405e63.png": "/cyddesport/static/media/thatgirlcodes.8f405e63.png",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.2bbbdeae.js",
     "static/css/2.27dd871e.chunk.css",
-    "static/js/2.27a7873f.chunk.js",
+    "static/js/2.a2fc32e4.chunk.js",
     "static/css/main.bf97002d.chunk.css",
-    "static/js/main.bbcab607.chunk.js"
+    "static/js/main.2765fb48.chunk.js"
   ]
 }
