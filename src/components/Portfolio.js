@@ -4,6 +4,7 @@ import CrunchyrollPage from '../components/images/crunchyroll-loginpage.png';
 import AnimeBae from '../components/images/animebaephoto.png';
 import GhibliClock from '../components/images/ghibliclock.png';
 import ThatGirlCodes from '../components/images/thatgirlcodes.png';
+import FeminakuBlog from '../components/images/feminakublog.png';
 import GitHubLogo from '../components/images/githublogo.png';
 import HerokuLogo from '../components/images/heroku.png';
 import NetlifyLogo from '../components/images/logomark.png';
@@ -112,7 +113,28 @@ export default class Portfolio extends Component {
                 </div>
                 </div>
 
+                <div className="column">
+                <div className="card">
+                <img src={FeminakuBlog} alt="website-with-sailor-moon-gif" className="Portfolio-Image" />
 
+                <div className="overlay">
+                <div className="card-content">
+                    <div className="media-content">
+                        <p className="title is-4">Feminaku Babes Blog</p>
+                    </div>
+                    <div className="content">
+                    Feminaku Babes is a mock Patreon-inspired application for
+                    black girls who love all things Otaku culture.
+                    <div className="SocialMedia-Icons">
+                    <a href="https://github.com/cydneypo034/feminakubabes"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px"/></a>
+                    <a href="https://cydneypo034.github.io/feminakubabes/#/"><img src={WebsiteLogo} alt="heroku-logo" height="50px" width="50px"/></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+               
+                </div>
+                </div>
 
                 <div className="column">
                 <div className="card">
