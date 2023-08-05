@@ -10,15 +10,14 @@ export default class Home extends Component {
                     <section class="hero is-medium">
 
                     <div class="hero-body">
-                    <h1 className="DocFont">hi, it's nice to meet you!</h1>
-                    <h2 className="DocFont">my name is Cydney Pollard.</h2>
-                    <p className="DocSubFont">i'm a full-stack software engineer with a 
-                    background in graphic design and customer service, currently residing in Atlanta, Georgia</p>
+                    <h1> Hi, I'm Cydney! 👋🏾 </h1>
+                    <h4>i build and design fun things for the web.</h4>
+                    <p>i'm a tech unicorn 🦄✨ with specialties in customer support, front end web developement, QA testing and graphic design</p>
 
-                    <div className="DocButton">
-                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}} href="https://github.com/cydneypo034">Github</Button> {' '}
-                    <Button variant="default" style= {{ color: 'white', background: '#D9A3A3'}} href={PDF} target="_blank">CV/Resume</Button>
-                    </div>
+                    {/* <div>
+                    <Button variant="default" style= {{ color: 'white', background: '#C18FC6'}} href="https://github.com/cydneypo034">Github</Button> {' '}
+                    <Button variant="default" style= {{ color: 'white', background: '#C18FC6'}} href={PDF} target="_blank">CV/Resume</Button>
+                    </div> */}
 
                     </div>
                     </section>
