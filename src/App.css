@@ -3,18 +3,19 @@
     src: url('./components/fonts/Grovana-MediumRound.ttf');
     }
 
-.DocFont {
-    font-family: Grovana;
+.h1Font {
     text-align: center;
     font-size: 50px;
-    color: #D9A3A3;
+}
+.h4Font {
+    text-align: center;
+    font-size: 30px;
 }
 
 .DocSubFont {
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
     text-align: center;
-    color: #D9A3A3;
 }
 
 .DocButton {
