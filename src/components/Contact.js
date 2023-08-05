@@ -55,7 +55,7 @@ export default class Contact extends Component {
         return (
             <div>
                 <section className="hero is-small">
-                <h1 className="DocFont">Contact Me</h1>
+                <h1 className="h1Font">Contact Me</h1>
                 <h2 className="DocSubFont">Feel free to fill out the contact form below if you'd like to contact me in regards to job and network opportunities.</h2>
 
                 </section>
@@ -102,7 +102,7 @@ export default class Contact extends Component {
 
                 <div className="field">
                 <div className="control">
-                    <button className="button is-link" style= {{ color: 'white', background: '#D9A3A3'}}>Submit</button>
+                    <button className="button is-link" style= {{ color: 'white', background: '#C18FC6'}}>Submit</button>
                 </div>
                 </div>
                 
