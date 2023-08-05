@@ -1,116 +1,89 @@
-import React, {Component} from 'react';
-import emailjs from 'emailjs-com';
+import React, { useState } from "react";
 
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/434d7a00-33cc-11ee-b436-9790aa40195d";
 
-export default class Contact extends Component {
+const ContactForm = () => {
+  const [submitted, setSubmitted] = useState(false);
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-    state = {
-        name:'',
-        email:'',
-        subject:'',
-        message:'',
+    const inputs = e.target.elements;
+    const data = {};
+
+    for (let i = 0; i < inputs.length; i++) {
+      if (inputs[i].name) {
+        data[inputs[i].name] = inputs[i].value;
+      }
     }
-    
-    handleSubmit(e){
-        e.preventDefault();
 
-        const {name, email, subject, message} = this.state;
-        const serviceId = process.env.REACT_APP_EMAILJS_SERVICEID;
-        const templateId = process.env.REACT_APP_EMAILJS_TEMPLATEID;
-        const userId = process.env.REACT_APP_EMAILJS_USERID;
-
-        let emailTempParams = {
-            to_name: name,
-            from_name: email,
-            subject: subject,
-            message_html: message,
+    fetch(FORM_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Form response was not ok');
         }
 
-        emailjs.send(
-            serviceId,
-            templateId,
-            emailTempParams,
-            userId
-        )
+        setSubmitted(true);
+      })
+      .catch((err) => {
+        // Submit the form manually
+        e.target.submit();
+      });
+  };
 
-        this.resetForm();
+  if (submitted) {
+    return (
+      <>
+        <h2>Thank you!</h2>
+        <div>We'll be in touch soon.</div>
+      </>
+    );
+  }
 
-    }
-
-    resetForm(){
-        this.setState({
-            name:'',
-            email:'',
-            subject:'',
-            message:'',
-        })
-    }
-
-    handleChange = (parameters, e) => {
-        this.setState({[parameters]: e.target.value})
-    }
-
-    render () {
-
-        return (
-            <div>
-                <section className="hero is-small">
+  return (
+    <section className="hero is-small">
                 <h1 className="h1Font">Contact Me 💌</h1>
-                <h2 className="DocSubFont">Feel free to fill out the contact form below if you'd like to contact me in regards to job and network opportunities.</h2>
+                <h2 className="DocSubFont">Feel free to fill out the contact form below if you'd like to contact me in regards to employment and network opportunities.</h2>
 
-                </section>
-               
-            <div className= "ContactForm">
-                <form class="control" onSubmit={this.handleSubmit.bind(this)}>
-
-                <div className="field">
-                <label className="label">Name</label>
-                <div className="control">
-                    <input className="input" type="text" value={this.state.name}
-                    onChange={this.handleChange.bind(this, 'name')}
-                    name="name" placeholder="Name"/>
-                </div>
-                </div>
-
-                <div className="field">
-                <label className="label">Email</label>
-                <div className="control">
-                    <input className="input" type="text" value={this.state.email}
-                    onChange={this.handleChange.bind(this, 'email')}
-                    name="email" placeholder="Email"/>
-                </div>
-                </div>
-
-                <div className="field">
-                <label className="label">Subject</label>
-                <div className="control">
-                    <input className="input" type="text" value={this.state.subject}
-                    onChange={this.handleChange.bind(this,'subject')}
-                    name="subject" placeholder="Subject"/>
-                </div>
-                </div>
-
-                <div className="field">
+    <form
+      action={FORM_ENDPOINT}
+      onSubmit={handleSubmit}
+      method="POST"
+    >
+     <div className="field">
+            <label className="label">Name</label>
+            <div className="control">
+            <input className="input" type="text" placeholder="Your name" name="name" required />
+            </div>
+    </div>
+    <div className="field">
+            <label className="label">Email</label>
+            <div className="control">
+            <input className="input" type="email" placeholder="Email" name="email" required />
+            </div>
+    </div>
+    <div className="field">
                 <label className="label">Message</label>
                 <div className="control">
-                    <textarea className="textarea" value={this.state.message}
-                    onChange={this.handleChange.bind(this, 'message')}
-                    name="message" placeholder="Message"></textarea>
+                <textarea className="textarea" placeholder="Your message" name="message" required />
                 </div>
-                </div>
+      </div>
 
-
-                <div className="field">
+      <div className="field">
                 <div className="control">
-                    <button className="button is-link" style= {{ color: 'white', background: '#C18FC6'}}>Submit</button>
+                    <button className="button is-link" type="submit" style= {{ color: 'white', background: '#C18FC6'}}>Submit</button>
                 </div>
-                </div>
-                
-                </form>
+        </div>
+    </form>
+    </section>
 
-            </div>
-            </div>
-
-        )
-    }
+  );
 };
+
+export default ContactForm;

@@ -37,14 +37,9 @@ export default class Home extends Component {
                     <div class="hero-body" >
                     <h1 className="h1Font" style={{ color: '#C18FC6'}}>Here's a Bit About Me 🌈</h1>
                         <h4 className="DocSubFont">
-                            My love for art began to form when I was in elementary school and since then, I wanted
-                            to find my place in the world as a creative person. I worked for many years as a graphic
-                            and brand designer, digital illustrator and painter. I still love and am involved in these
-                            forms of creativity, but I searched for another way I could be creative and have a satisfying
-                            career. Hence, the start of my journey as a web developer began in July of 2019. I have grown
-                            to love the process of designing and developing layouts for web applications and it challenges
-                            me to think of how to structure my coding projects, what things to consider when it comes to the
-                            memory and time complexity of data, and how to figure out what real world problem I am solving.
+                        I consider myself a tech unicorn because I combine the best of both worlds: analytical and creative thinking. My passion for art blossomed during my early school years, and ever since then, I yearned to find my place as a creative individual in this vast world. I spent numerous years working as a graphic designer, digital illustrator, and painter, honing my skills in these fields.
+My journey as a web developer began when I was commissioned to design a website for a non-profit conference. This experience ignited my curiosity and passion for designing and developing layouts for web applications. It not only provided me with a sense of fulfillment but also presented challenges that pushed me to grow in various aspects.
+Now, as I embark on coding projects, I ponder on how best to structure my code, considering factors such as memory and time complexity. Additionally, I strive to grasp the essence of the real-world problems I am solving through programming. This holistic approach enables me to create solutions that are not only technically sound but also genuinely address the needs and desires of the users I am serving.
                         </h4>
 
                     </div>
@@ -54,7 +49,7 @@ export default class Home extends Component {
                 <section class="hero is-large">
                     <div class="hero-body">
                     <h1 className="h1Font" style={{ color: '#C18FC6'}}> My Recent Projects ✨</h1>
-                <p className="DocSubFont">Here's some pretty cool projects I've designed and developed so far.</p>
+                <p className="DocSubFont">Here's some projects I've designed and developed so far.</p>
                 <div>&nbsp;</div>
                         <div className="columns is-multiline">
                             <div className="column">
@@ -123,6 +118,7 @@ export default class Home extends Component {
 
                     </div>
                 </section>
+                <div>&nbsp;</div>
 
                 {/* Skills Section */}
                 <section class="hero is-medium">
