@@ -50,6 +50,7 @@ const ContactForm = () => {
     <section className="hero is-small">
                 <h1 className="h1Font">Contact Me 💌</h1>
                 <h2 className="DocSubFont">Feel free to fill out the contact form below if you'd like to contact me in regards to employment and network opportunities.</h2>
+    <div>&nbsp;</div>
 
     <form
       action={FORM_ENDPOINT}
