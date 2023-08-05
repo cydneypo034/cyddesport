@@ -35,7 +35,7 @@ export default class Home extends Component {
                 {/* About Section */}
                 <section class="hero is-large">
                     <div class="hero-body" >
-                    <h4 className="h4Font" style={{ color: '#C18FC6'}}>Here's a Bit About Me</h4>
+                    <h1 className="h1Font" style={{ color: '#C18FC6'}}>Here's a Bit About Me 🌈</h1>
                         <h4 className="DocSubFont">
                             My love for art began to form when I was in elementary school and since then, I wanted
                             to find my place in the world as a creative person. I worked for many years as a graphic
@@ -52,10 +52,10 @@ export default class Home extends Component {
 
                 {/* Portfolio Section */}
                 <section class="hero is-large">
-                <h1 className="h1Font" style={{ color: '#C18FC6'}}> My Recent Projects ✨</h1>
-                <p className="DocSubFont">Here's some pretty cool projects I've designed and developed so far.</p>
                     <div class="hero-body">
-
+                    <h1 className="h1Font" style={{ color: '#C18FC6'}}> My Recent Projects ✨</h1>
+                <p className="DocSubFont">Here's some pretty cool projects I've designed and developed so far.</p>
+                <div>&nbsp;</div>
                         <div className="columns is-multiline">
                             <div className="column">
                                 <div className="card">
