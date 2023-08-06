@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/cyddesport/static/css/main.e8f40b7c.css",
-    "main.js": "/cyddesport/static/js/main.d80fa54d.js",
+    "main.js": "/cyddesport/static/js/main.b288c9c3.js",
     "static/js/787.d0099a53.chunk.js": "/cyddesport/static/js/787.d0099a53.chunk.js",
     "static/media/cydney.png": "/cyddesport/static/media/cydney.df49a1f5af4977cc52bd.png",
     "static/media/feminaku.png": "/cyddesport/static/media/feminaku.ab18459d67d2ccd73875.png",
-    "static/media/memorycardgame.png": "/cyddesport/static/media/memorycardgame.b086d67cc2b317d7ae76.png",
+    "static/media/memorygame.png": "/cyddesport/static/media/memorygame.2fbf6a37267ad7c324de.png",
     "static/media/cydneyportfolio.png": "/cyddesport/static/media/cydneyportfolio.72c4f941a9409f9bd0c5.png",
     "static/media/crunchyroll-loginpage.png": "/cyddesport/static/media/crunchyroll-loginpage.a15aa3cdce168b74d33b.png",
     "static/media/Grovana-MediumRound.ttf": "/cyddesport/static/media/Grovana-MediumRound.ec52f0f5adef2629561f.ttf",
@@ -14,11 +14,11 @@
     "static/media/dev-to.png": "/cyddesport/static/media/dev-to.e05c4693a970e5b7f615.png",
     "index.html": "/cyddesport/index.html",
     "main.e8f40b7c.css.map": "/cyddesport/static/css/main.e8f40b7c.css.map",
-    "main.d80fa54d.js.map": "/cyddesport/static/js/main.d80fa54d.js.map",
+    "main.b288c9c3.js.map": "/cyddesport/static/js/main.b288c9c3.js.map",
     "787.d0099a53.chunk.js.map": "/cyddesport/static/js/787.d0099a53.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8f40b7c.css",
-    "static/js/main.d80fa54d.js"
+    "static/js/main.b288c9c3.js"
   ]
 }
