@@ -53,7 +53,7 @@ export default class Home extends Component {
                 </section>
 
                 {/* Portfolio Section */}
-                <section class="hero is-large">
+                <section class="hero is-small">
                     <div class="hero-body">
                         <h1 className="h1Font" style={{ color: '#C18FC6' }}> My Recent Projects ✨</h1>
                         <p className="DocSubFont">Here's some projects I've designed and developed so far.</p>
