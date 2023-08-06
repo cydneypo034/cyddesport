@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-// import Image from 'react-bootstrap/Image';
-// import Col from 'react-bootstrap/Col';
-// import Row from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
 import PDF from '../components/uploads/CPOLLARD-Resume2023 (1).pdf';
 import CydneyPortfolio from '../components/images/cydneyportfolio.png';
@@ -11,7 +11,7 @@ import CrunchyrollPage from '../components/images/crunchyroll-loginpage.png';
 import FrontEnd from '../components/images/frontend-mentor.png';
 import DEV from '../components/images/dev-to.png';
 import CodeWars from '../components/images/codears.png';
-
+import Cydney from '../components/images/cydney.png';
 
 
 export default class Home extends Component {
@@ -34,7 +34,7 @@ export default class Home extends Component {
                 </section>
 
                 {/* About Section */}
-                <section class="hero is-large">
+                <section class="hero is-medium">
                     <div class="hero-body" >
                         <h1 className="h1Font" style={{ color: '#C18FC6' }}>Here's a Bit About Me 🌈</h1>
                         <h4 className="DocSubFont">
@@ -42,7 +42,13 @@ export default class Home extends Component {
                             My journey as a web developer began when I was commissioned to design a website for a non-profit conference. This experience ignited my curiosity and passion for designing and developing layouts for web applications. It not only provided me with a sense of fulfillment but also presented challenges that pushed me to grow in various aspects.
                             Now, as I embark on coding projects, I ponder on how best to structure my code, considering factors such as memory and time complexity. Additionally, I strive to grasp the essence of the real-world problems I am solving through programming. This holistic approach enables me to create solutions that are not only technically sound but also genuinely address the needs and desires of the users I am serving.
                         </h4>
-
+                        <div className="container">
+                            <Row className="justify-content-md-center">
+                                <Col xs={12} sm={4} md={4}>
+                                    <Image src={Cydney} roundedCircle className="AboutMeImage" />
+                                </Col>
+                            </Row>
+                        </div>
                     </div>
                 </section>
 
@@ -250,19 +256,19 @@ export default class Home extends Component {
                         <nav class="level">
                             <div class="level-item has-text-centered">
                                 <div>
-                                <a href="https://www.frontendmentor.io/profile/cydneypo034"><img src={FrontEnd} alt="frontend-mentor-logo" height="50px" width="500px" /></a>
+                                    <a href="https://www.frontendmentor.io/profile/cydneypo034"><img src={FrontEnd} alt="frontend-mentor-logo" height="50px" width="500px" /></a>
                                 </div>
                             </div>
                             <div class="level-item has-text-centered">
                                 <div>
-                                <a href="https://dev.to/cydneypo034"><img src={DEV} alt="dev-to-logo" height="50px" width="100px" /></a>
+                                    <a href="https://dev.to/cydneypo034"><img src={DEV} alt="dev-to-logo" height="50px" width="100px" /></a>
                                 </div>
                             </div>
                             <div class="level-item has-text-centered">
                                 <div>
-                                <a href="https://www.codewars.com/users/cydneypo034"><img src={CodeWars} alt="codewars-logo" height="50px" width="500px" /></a>
+                                    <a href="https://www.codewars.com/users/cydneypo034"><img src={CodeWars} alt="codewars-logo" height="50px" width="500px" /></a>
                                 </div>
-                            </div> 
+                            </div>
                         </nav>
 
                     </div>
