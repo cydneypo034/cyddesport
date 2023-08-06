@@ -8,6 +8,10 @@ import CydneyPortfolio from '../components/images/cydneyportfolio.png';
 import MemoryGame from '../components/images/memorycardgame.png';
 import Feminaku from '../components/images/feminaku.png';
 import CrunchyrollPage from '../components/images/crunchyroll-loginpage.png';
+import FrontEnd from '../components/images/frontend-mentor.png';
+import DEV from '../components/images/dev-to.png';
+import CodeWars from '../components/images/codears.png';
+
 
 
 export default class Home extends Component {
@@ -20,7 +24,7 @@ export default class Home extends Component {
                     <div class="hero-body">
                         <h1 className="h1Font" style={{ color: '#C18FC6' }}>Hi, I'm Cydney! 👋🏾 </h1>
                         <h4 className="h4Font">Your Friendly Resident Tech Unicorn 🦄✨ </h4>
-                        <p className="DocSubFont">My specialties include customer support, front end web developement, QA testing and graphic design</p>
+                        <p className="DocSubFont">My specialties include customer support, front-end web development, QA testing and graphic design</p>
 
                         <div className="DocButton">
                             <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034">Github</Button> {' '}
@@ -55,16 +59,16 @@ export default class Home extends Component {
                                         <figure className="Portfolio-Image">
                                             <img src={CydneyPortfolio} alt="website-with-purple-text" />
                                         </figure>
-                                    </div>        
+                                    </div>
                                     <div class="card-content">
-                                    <p class="title is-4">Cydney's Portfolio</p>
+                                        <p class="title is-4">Cydney's Portfolio</p>
 
                                         <div class="content">
                                             Cydney's Portfolio is a digital portfolio made with React, React Router DOM, Bulma and Bootstrap.
                                             <div>&nbsp;</div>
                                             <div class="container">
-                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/cyddesport">Github</Button> { ' ' }
-                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://cydneypo034.github.io/cyddesport/#/">Website</Button>
+                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/cyddesport">Github</Button> {' '}
+                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://cydneypo034.github.io/cyddesport/#/">Website</Button>
                                             </div>
                                         </div>
                                     </div>
@@ -79,16 +83,16 @@ export default class Home extends Component {
                                         </figure>
                                     </div>
                                     <div class="card-content">
-                                    <p class="title is-4">Memory Game</p>
+                                        <p class="title is-4">Memory Game</p>
 
                                         <div class="content">
-                                        Memory Card Game involves matching 2 out of 4 cards called Concentration built with HTML, CSS and Javascript.
-                                        <div>&nbsp;</div>
+                                            Memory Card Game involves matching 2 out of 4 cards called Concentration built with HTML, CSS and Javascript.
+                                            <div>&nbsp;</div>
                                             <div class="container">
-                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/memorygame">Github</Button> { ' ' }
-                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://concentrationmemorygame.netlify.app/">Website</Button>
+                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/memorygame">Github</Button> {' '}
+                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://concentrationmemorygame.netlify.app/">Website</Button>
                                             </div>
-                                        
+
                                         </div>
                                     </div>
                                 </div>
@@ -102,14 +106,14 @@ export default class Home extends Component {
                                         </figure>
                                     </div>
                                     <div class="card-content">
-                                    <p class="title is-4">Crunchyroll SignIn Page</p>
+                                        <p class="title is-4">Crunchyroll SignIn Page</p>
                                         <div class="content">
-                                        The Crunchyroll Sign In Page is a clone project based on
-                                                Crunchyroll.com's sign-in page built with HTML, CSS and JavaScript.                                            
-                                                <div>&nbsp;</div>
+                                            The Crunchyroll Sign In Page is a clone project based on
+                                            Crunchyroll.com's sign-in page built with HTML, CSS and JavaScript.
+                                            <div>&nbsp;</div>
                                             <div class="container">
-                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/crunchyrolllogin">Github</Button> { ' ' }
-                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://crunchyroll-login.netlify.app/">Website</Button>
+                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/crunchyrolllogin">Github</Button> {' '}
+                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://crunchyroll-login.netlify.app/">Website</Button>
                                             </div>
                                         </div>
                                     </div>
@@ -124,13 +128,13 @@ export default class Home extends Component {
                                         </figure>
                                     </div>
                                     <div class="card-content">
-                                    <p class="title is-4">FEMINAKU</p>
+                                        <p class="title is-4">FEMINAKU</p>
                                         <div class="content">
-                                        Feminaku is a woman-owned brand that sells otaku-themed clothing in a monthly membership made with React.                                         
-                                                <div>&nbsp;</div>
+                                            Feminaku is a woman-owned brand that sells otaku-themed clothing in a monthly membership made with React.
+                                            <div>&nbsp;</div>
                                             <div class="container">
-                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/feminakubabes">Github</Button> { ' ' }
-                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://cydneypo034.github.io/feminakubabes/#/">Website</Button>
+                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/feminakubabes">Github</Button> {' '}
+                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://cydneypo034.github.io/feminakubabes/#/">Website</Button>
                                             </div>
                                         </div>
                                     </div>
@@ -233,6 +237,34 @@ export default class Home extends Component {
 
 
                         </div>
+                    </div>
+                </section>
+
+                {/*See Me On Section */}
+                <section class="hero is-small">
+                    <div class="hero-body">
+                        <h1 className="h1Font" style={{ color: '#C18FC6' }}>Let's Connect 🫶🏾</h1>
+                        <p className="DocSubFont">View my communial and challenge participation below.</p>
+                        <div>&nbsp;</div>
+
+                        <nav class="level">
+                            <div class="level-item has-text-centered">
+                                <div>
+                                <a href="https://www.frontendmentor.io/profile/cydneypo034"><img src={FrontEnd} alt="frontend-mentor-logo" height="50px" width="500px" /></a>
+                                </div>
+                            </div>
+                            <div class="level-item has-text-centered">
+                                <div>
+                                <a href="https://dev.to/cydneypo034"><img src={DEV} alt="dev-to-logo" height="50px" width="100px" /></a>
+                                </div>
+                            </div>
+                            <div class="level-item has-text-centered">
+                                <div>
+                                <a href="https://www.codewars.com/users/cydneypo034"><img src={CodeWars} alt="codewars-logo" height="50px" width="500px" /></a>
+                                </div>
+                            </div> 
+                        </nav>
+
                     </div>
                 </section>
 
