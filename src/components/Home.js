@@ -6,12 +6,8 @@ import { Button } from 'react-bootstrap';
 import PDF from '../components/uploads/CPOLLARD-Resume2023 (1).pdf';
 import CydneyPortfolio from '../components/images/cydneyportfolio.png';
 import MemoryGame from '../components/images/memorycardgame.png';
-//import FeminakuBlog from '../components/images/feminakublog.png';
+import Feminaku from '../components/images/feminaku.png';
 import CrunchyrollPage from '../components/images/crunchyroll-loginpage.png';
-import GitHubLogo from '../components/images/githublogo.png';
-// import HerokuLogo from '../components/images/heroku.png';
-import NetlifyLogo from '../components/images/logomark.png';
-import WebsiteLogo from '../components/images/website-logo.png';
 
 
 export default class Home extends Component {
@@ -54,20 +50,21 @@ export default class Home extends Component {
                         <div>&nbsp;</div>
                         <div className="columns is-multiline">
                             <div className="column">
-                                <div className="card">
-                                    <img src={CydneyPortfolio} alt="website-with-pink-text" className="Portfolio-Image" />
-                                    <div className="overlay">
-                                        <div className="card-content">
-                                            <div className="media-content">
-                                                <p className="title is-4">Cydney's Portfolio</p>
-                                            </div>
-                                            <div className="content">
-                                                Cydney's Portfolio is a digital portfolio
-                                                made with React, React Router DOM, Bulma and Bootstrap.
-                                                <div className="SocialMedia-Icons">
-                                                    <a href="https://github.com/cydneypo034/cyddesport"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px" /></a>
-                                                    <a href="https://cydneypo034.github.io/cyddesport/#/"><img src={WebsiteLogo} alt="heroku-logo" height="50px" width="50px" /></a>
-                                                </div>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure className="Portfolio-Image">
+                                            <img src={CydneyPortfolio} alt="website-with-purple-text" />
+                                        </figure>
+                                    </div>        
+                                    <div class="card-content">
+                                    <p class="title is-4">Cydney's Portfolio</p>
+
+                                        <div class="content">
+                                            Cydney's Portfolio is a digital portfolio made with React, React Router DOM, Bulma and Bootstrap.
+                                            <div>&nbsp;</div>
+                                            <div class="container">
+                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/cyddesport">Github</Button> { ' ' }
+                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://cydneypo034.github.io/cyddesport/#/">Website</Button>
                                             </div>
                                         </div>
                                     </div>
@@ -75,19 +72,44 @@ export default class Home extends Component {
                             </div>
 
                             <div className="column">
-                                <div className="card">
-                                    <img src={MemoryGame} alt="four-cards-with-one-card-flipped" className="Portfolio-Image" />
-                                    <div className="overlay">
-                                        <div className="card-content">
-                                            <div className="media-content">
-                                                <p className="title is-4">Memory Card Game</p>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure className="Portfolio-Image">
+                                            <img src={MemoryGame} alt="four-cards-with-one-card-flipped" />
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                    <p class="title is-4">Memory Game</p>
+
+                                        <div class="content">
+                                        Memory Card Game involves matching 2 out of 4 cards called Concentration built with HTML, CSS and Javascript.
+                                        <div>&nbsp;</div>
+                                            <div class="container">
+                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/memorygame">Github</Button> { ' ' }
+                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://concentrationmemorygame.netlify.app/">Website</Button>
                                             </div>
-                                            <div className="content">
-                                                Memory Card Game involves matching 2 out of 4 cards called Concentration. The goal is to match a pair of cards.
-                                                <div className="SocialMedia-Icons">
-                                                    <a href="https://github.com/cydneypo034/memorygame"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px" /></a>
-                                                    <a href="https://concentrationmemorygame.netlify.app/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px" /></a>
-                                                </div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="column">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure className="Portfolio-Image">
+                                            <img src={CrunchyrollPage} alt="crunchyroll-login-page" />
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                    <p class="title is-4">Crunchyroll SignIn Page</p>
+                                        <div class="content">
+                                        The Crunchyroll Sign In Page is a clone project based on
+                                                Crunchyroll.com's sign-in page built with HTML, CSS and JavaScript.                                            
+                                                <div>&nbsp;</div>
+                                            <div class="container">
+                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/crunchyrolllogin">Github</Button> { ' ' }
+                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://crunchyroll-login.netlify.app/">Website</Button>
                                             </div>
                                         </div>
                                     </div>
@@ -95,48 +117,25 @@ export default class Home extends Component {
                             </div>
 
                             <div className="column">
-                                <div className="card">
-                                    <img src={CrunchyrollPage} alt="crunchyroll-login-page" className="Portfolio-Image" />
-                                    <div className="overlay">
-                                        <div className="card-content">
-                                            <div className="media-content">
-                                                <p className="title is-4">Crunchyroll Login Page</p>
-                                            </div>
-                                            <div className="content">
-                                                The Crunchyroll Sign In Page is a clone project based on
-                                                Crunchyroll.com's sign-in page built with HTML, CSS and JavaScript.
-                                                <div className="SocialMedia-Icons">
-                                                    <a href="https://github.com/cydneypo034/crunchyrolllogin"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px" /></a>
-                                                    <a href="https://crunchyroll-login.netlify.app/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px" /></a>
-                                                </div>
+                                <div class="card">
+                                    <div class="card-image">
+                                        <figure className="Portfolio-Image">
+                                            <img src={Feminaku} alt="website-page-with-anime-girl" />
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                    <p class="title is-4">FEMINAKU</p>
+                                        <div class="content">
+                                        Feminaku is a woman-owned brand that sells otaku-themed clothing in a monthly membership made with React.                                         
+                                                <div>&nbsp;</div>
+                                            <div class="container">
+                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/feminakubabes">Github</Button> { ' ' }
+                                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://cydneypo034.github.io/feminakubabes/#/">Website</Button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-
-                            {/* <div className="column">
-                                <div className="card">
-                                    <img src={Feminaku} alt="website-page-with-anime-girl" className="Portfolio-Image" />
-
-                                    <div className="overlay">
-                                        <div className="card-content">
-                                            <div className="media-content">
-                                                <p className="title is-4">Feminaku App</p>
-                                            </div>
-                                            <div className="content">
-                                                Feminaku is a front-end web application made with
-                                                React, React Router DOM, MDBootstrap,and Bulma.
-                                                <div className="SocialMedia-Icons">
-                                                    <a href="https://github.com/cydneypo034/feminakubabes"><img src={GitHubLogo} alt="github-logo" height="50px" width="50px" /></a>
-                                                    <a href="https://cydneypo034.github.io/feminakubabes/#/"><img src={NetlifyLogo} alt="heroku-logo" height="50px" width="50px" /></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div> */}
 
                         </div>
 
