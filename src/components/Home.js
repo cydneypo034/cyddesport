@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
 import PDF from '../components/uploads/CPOLLARD-Resume2023 (1).pdf';
 import CydneyPortfolio from '../components/images/cydneyportfolio.png';
-import MemoryGame from '../components/images/memorycardgame.png';
+import MemoryGame from '../components/images/memorygame.png';
 import Feminaku from '../components/images/feminaku.png';
 import CrunchyrollPage from '../components/images/crunchyroll-loginpage.png';
 import FrontEnd from '../components/images/frontend-mentor.png';
@@ -125,30 +125,9 @@ export default class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="column">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure className="Portfolio-Image">
-                                            <img src={Feminaku} alt="website-page-with-anime-girl" />
-                                        </figure>
-                                    </div>
-                                    <div class="card-content">
-                                        <p class="title is-4">FEMINAKU</p>
-                                        <div class="content">
-                                            Feminaku is a woman-owned brand that sells otaku-themed clothing in a monthly membership made with React.
-                                            <div>&nbsp;</div>
-                                            <div class="container">
-                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/feminakubabes">Github</Button> {' '}
-                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://cydneypo034.github.io/feminakubabes/#/">Website</Button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
-
+                        <div>&nbsp;</div>
+                        <p className="DocSubFont"><a href="#/portfolio" style={{ color: '#C18FC6' }}>View All Projects</a></p>
                     </div>
                 </section>
                 <div>&nbsp;</div>

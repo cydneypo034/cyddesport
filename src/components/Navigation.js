@@ -12,6 +12,7 @@ class Navigation extends React.Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="justify-content-end">
             <Nav>
+            <Nav.Link href="#/portfolio" className="para-center">Portfolio</Nav.Link>
               <Nav.Link href="#/contact" className="para-center">Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
