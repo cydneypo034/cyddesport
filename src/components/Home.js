@@ -6,8 +6,8 @@ import { Button } from 'react-bootstrap';
 import PDF from '../components/uploads/CPOLLARD-Resume2023 (1).pdf';
 import CydneyPortfolio from '../components/images/cydneyportfolio.png';
 import MemoryGame from '../components/images/memorygame.png';
-import Feminaku from '../components/images/feminaku.png';
-import CrunchyrollPage from '../components/images/crunchyroll-loginpage.png';
+//import Feminaku from '../components/images/feminaku.png';
+import DisneyLogin from '../components/images/disneylogin.png';
 import FrontEnd from '../components/images/frontend-mentor.png';
 import DEV from '../components/images/dev-to.png';
 import CodeWars from '../components/images/codears.png';
@@ -108,23 +108,25 @@ export default class Home extends Component {
                                 <div class="card">
                                     <div class="card-image">
                                         <figure className="Portfolio-Image">
-                                            <img src={CrunchyrollPage} alt="crunchyroll-login-page" />
+                                            <img src={DisneyLogin} alt="Disney-login-page" />
                                         </figure>
                                     </div>
                                     <div class="card-content">
-                                        <p class="title is-4">Crunchyroll SignIn Page</p>
+                                        <p class="title is-4">Disney SignIn Page</p>
                                         <div class="content">
-                                            The Crunchyroll Sign In Page is a clone project based on
-                                            Crunchyroll.com's sign-in page built with HTML, CSS and JavaScript.
+                                            The Disney Sign In Page is a clone project based on
+                                            Disneyworld.com's sign-in page built with HTML and CSS.
                                             <div>&nbsp;</div>
                                             <div class="container">
-                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/crunchyrolllogin">Github</Button> {' '}
-                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://crunchyroll-login.netlify.app/">Website</Button>
+                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/disneyloginpage">Github</Button> {' '}
+                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://disneyloginpage.netlify.app/">Website</Button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
+
                         </div>
                         <div>&nbsp;</div>
                         <p className="DocSubFont"><a href="#/portfolio" style={{ color: '#C18FC6' }}>View All Projects</a></p>
