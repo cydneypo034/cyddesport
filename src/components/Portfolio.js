@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import CydneyPortfolio from '../components/images/cydneyportfolio.png';
 import MemoryGame from '../components/images/memorygame.png';
 import DisneyLogin from '../components/images/disneylogin.png';
-//import Feminaku from '../components/images/feminaku.png';
+import HelloFriend from '../components/images/hellofriend.png';
 import { Button } from 'react-bootstrap';
 
 
@@ -83,26 +83,26 @@ export default class Home extends Component {
                         </div>
                     </div>
 
-                    {/* <div className="column">
+                    <div className="column">
                         <div class="card">
                             <div class="card-image">
                                 <figure className="Portfolio-Image">
-                                    <img src={Feminaku} alt="website-page-with-anime-girl" />
+                                    <img src={HelloFriend} alt="tan-background-with-clock-music_player-and-dark-mode-in-dark-text" />
                                 </figure>
                             </div>
                             <div class="card-content">
-                                <p class="title is-4">FEMINAKU</p>
+                                <p class="title is-4">Hello Friend...Remember App</p>
                                 <div class="content">
-                                    Feminaku is a woman-owned brand that sells otaku-themed clothing in a monthly membership made with React.
+                                Hello Friend...Remember App is an app with the goal of relaxation built with HTML, CSS, and JavaScript.
                                     <div>&nbsp;</div>
                                     <div class="container">
-                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/feminakubabes">Github</Button> {' '}
-                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://cydneypo034.github.io/feminakubabes/#/">Website</Button>
+                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/hellofriend">Github</Button> {' '}
+                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://hellofriendremember.netlify.app/">Website</Button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                 </div>
 

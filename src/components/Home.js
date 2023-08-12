@@ -6,8 +6,7 @@ import { Button } from 'react-bootstrap';
 import PDF from '../components/uploads/CPOLLARD-Resume2023 (1).pdf';
 import CydneyPortfolio from '../components/images/cydneyportfolio.png';
 import MemoryGame from '../components/images/memorygame.png';
-//import Feminaku from '../components/images/feminaku.png';
-import DisneyLogin from '../components/images/disneylogin.png';
+import HelloFriend from '../components/images/hellofriend.png';
 import FrontEnd from '../components/images/frontend-mentor.png';
 import DEV from '../components/images/dev-to.png';
 import CodeWars from '../components/images/codears.png';
@@ -105,26 +104,25 @@ export default class Home extends Component {
                             </div>
 
                             <div className="column">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure className="Portfolio-Image">
-                                            <img src={DisneyLogin} alt="Disney-login-page" />
-                                        </figure>
-                                    </div>
-                                    <div class="card-content">
-                                        <p class="title is-4">Disney SignIn Page</p>
-                                        <div class="content">
-                                            The Disney Sign In Page is a clone project based on
-                                            Disneyworld.com's sign-in page built with HTML and CSS.
-                                            <div>&nbsp;</div>
-                                            <div class="container">
-                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/disneyloginpage">Github</Button> {' '}
-                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://disneyloginpage.netlify.app/">Website</Button>
-                                            </div>
-                                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <figure className="Portfolio-Image">
+                                    <img src={HelloFriend} alt="tan-background-with-clock-music_player-and-dark-mode-in-dark-text" />
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4">Hello Friend App</p>
+                                <div class="content">
+                                Hello Friend...Remember App is an app with the goal of relaxation built with HTML, CSS, and JavaScript.
+                                    <div>&nbsp;</div>
+                                    <div class="container">
+                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/hellofriend">Github</Button> {' '}
+                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://hellofriendremember.netlify.app/">Website</Button>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
 
 
                         </div>
