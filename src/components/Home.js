@@ -41,8 +41,7 @@ export default class Home extends Component {
                         Seeing how this API interacted within my project made my interest blossom. My technical expertise includes testing, 
                         troubleshooting, and utilizing RESTful APIs. This expertise also includes writing in JavaScript, 
                         querying with SQL, and ensuring proper security protocols are met upon API usage. My mission as an API engineer is to create seamless, 
-                        reliable, and scalable solutions. I believe in the power of APIs to transform industries and make the digital world more connected. 
-                        When I’m not continuously learning new skills and technologies, I either am playing Animal 
+                        reliable, and scalable solutions. When I’m not continuously learning new skills and technologies, I either am playing Animal 
                         Crossing or rewatching episodes of The Big Bang Theory.
 
                         I'm excited to tackle new challenges and apply my problem-solving skills to deliver solutions for easier API usage. Please feel 
@@ -229,6 +228,7 @@ export default class Home extends Component {
 
 
                         </div>
+                        <div>&nbsp;</div>
                         <p className="DocSubFont"><a href={PDF} style={{ color: '#C18FC6' }}>View Full Resume</a></p>
                     </div>
                 </section>
