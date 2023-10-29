@@ -3,6 +3,7 @@ import CydneyPortfolio from '../components/images/cydneyportfolio.png';
 import MemoryGame from '../components/images/memorygame.png';
 import DisneyLogin from '../components/images/disneylogin.png';
 import HelloFriend from '../components/images/hellofriend.png';
+import ThatGirlCodes from '../components/images/thatgirlcodes.png';
 import { Button } from 'react-bootstrap';
 
 
@@ -98,6 +99,27 @@ export default class Home extends Component {
                                     <div class="container">
                                         <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/hellofriend">Github</Button> {' '}
                                         <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://hellofriendremember.netlify.app/">Website</Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure className="Portfolio-Image">
+                                    <img src={ThatGirlCodes} alt="dark-grey-background-with-2-images-of-black-women-and-white-text" />
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4">That Girl Codes App</p>
+                                <div class="content">
+                                That Girl Codes App is an app that helps women who want to code network and gain resources. Built using the MERN stack and API creation.
+                                    <div>&nbsp;</div>
+                                    <div class="container">
+                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/thatgirlcodes">Github</Button> {' '}
+                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://thatgirlcodes.onrender.com/">Website</Button>
                                     </div>
                                 </div>
                             </div>

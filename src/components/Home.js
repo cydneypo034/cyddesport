@@ -3,9 +3,8 @@ import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
-import PDF from '../components/uploads/CPOLLARD-Resume2023 (1).pdf';
 import CydneyPortfolio from '../components/images/cydneyportfolio.png';
-import MemoryGame from '../components/images/memorygame.png';
+import ThatGirlCodes from '../components/images/thatgirlcodes.png';
 import HelloFriend from '../components/images/hellofriend.png';
 import FrontEnd from '../components/images/frontend-mentor.png';
 import DEV from '../components/images/dev-to.png';
@@ -23,11 +22,11 @@ export default class Home extends Component {
                     <div class="hero-body">
                         <h1 className="h1Font" style={{ color: '#C18FC6' }}>Hi, I'm Cydney! 👋🏾 </h1>
                         <h4 className="h4Font">Your Friendly Resident Tech Unicorn 🦄✨ </h4>
-                        <p className="DocSubFont">My specialties include customer support, front-end web development, QA testing and graphic design</p>
+                        <p className="DocSubFont">My specialties include customer support, APIs, full-stack web development, and graphic design</p>
 
                         <div className="DocButton">
                             <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034">Github</Button> {' '}
-                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href={PDF} target="_blank">CV/Resume</Button>
+                            {/* <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href={} target="_blank">CV/Resume</Button> */}
                         </div>
                     </div>
                 </section>
@@ -37,9 +36,18 @@ export default class Home extends Component {
                     <div class="hero-body" >
                         <h1 className="h1Font" style={{ color: '#C18FC6' }}>Here's a Bit About Me 🌈</h1>
                         <h4 className="DocSubFont">
-                            I consider myself a tech unicorn because I combine the best of both worlds: analytical and creative thinking. My passion for art blossomed during my early school years, and ever since then, I yearned to find my place as a creative individual in this vast world. I spent numerous years working as a graphic designer, digital illustrator, and painter, honing my skills in these fields.
-                            My journey as a web developer began when I was commissioned to design a website for a non-profit conference. This experience ignited my curiosity and passion for designing and developing layouts for web applications. It not only provided me with a sense of fulfillment but also presented challenges that pushed me to grow in various aspects.
-                            Now, as I embark on coding projects, I ponder on how best to structure my code, considering factors such as memory and time complexity. Additionally, I strive to grasp the essence of the real-world problems I am solving through programming. This holistic approach enables me to create solutions that are not only technically sound but also genuinely address the needs and desires of the users I am serving.
+                        Hi! My name's Cydney, an API engineer deeply passionate about crafting elegant solutions in the ever-evolving tech landscape.
+                        My first interest in APIs began within my software engineering bootcamp when I used Google Maps API for a project. 
+                        Seeing how this API interacted within my project made my interest blossom. My technical expertise includes testing, 
+                        troubleshooting, and utilizing RESTful APIs. This expertise also includes writing in JavaScript, 
+                        querying with SQL, and ensuring security. My mission as an API engineer is to create seamless, 
+                        reliable, and scalable solutions. I believe in the power of APIs to transform industries and make the digital world more connected. 
+                        When I’m not continuously learning new skills and technologies, I either am playing Animal 
+                        Crossing or rewatching episodes of The Big Bang Theory.
+
+                        I'm excited to tackle new challenges and apply my problem-solving skills to deliver solutions for easier API usage. Please feel 
+                        free to reach out to me at cydneypollard.hire@gmail.com to discuss potential collaborations or simply chat about the fascinating world of APIs.
+
                         </h4>
                         <div className="container">
                             <Row className="justify-content-md-center">
@@ -81,27 +89,26 @@ export default class Home extends Component {
                             </div>
 
                             <div className="column">
-                                <div class="card">
-                                    <div class="card-image">
-                                        <figure className="Portfolio-Image">
-                                            <img src={MemoryGame} alt="four-cards-with-one-card-flipped" />
-                                        </figure>
-                                    </div>
-                                    <div class="card-content">
-                                        <p class="title is-4">Memory Game</p>
-
-                                        <div class="content">
-                                            Memory Card Game involves matching 2 out of 4 cards called Concentration built with HTML, CSS and Javascript.
-                                            <div>&nbsp;</div>
-                                            <div class="container">
-                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/memorygame">Github</Button> {' '}
-                                                <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://concentrationmemorygame.netlify.app/">Website</Button>
-                                            </div>
-
-                                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <figure className="Portfolio-Image">
+                                    <img src={ThatGirlCodes} alt="dark-grey-background-with-2-images-of-black-women-and-white-text" />
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4">That Girl Codes App</p>
+                                <div class="content">
+                                That Girl Codes App is an app that helps women who want to code network and gain resources. Built using the MERN stack and API creation.
+                                    <div>&nbsp;</div>
+                                    <div class="container">
+                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/thatgirlcodes">Github</Button> {' '}
+                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://thatgirlcodes.onrender.com/">Website</Button>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
 
                             <div className="column">
                         <div class="card">
