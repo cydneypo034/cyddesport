@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
 import CydneyPortfolio from '../components/images/cydneyportfolio.png';
+import PDF from '../components/uploads/Cydney-Pollard-Resume-10:2023.pdf';
 import ThatGirlCodes from '../components/images/thatgirlcodes.png';
 import HelloFriend from '../components/images/hellofriend.png';
 import FrontEnd from '../components/images/frontend-mentor.png';
@@ -21,12 +22,11 @@ export default class Home extends Component {
                 <section class="hero is-large">
                     <div class="hero-body">
                         <h1 className="h1Font" style={{ color: '#C18FC6' }}>Hi, I'm Cydney! 👋🏾 </h1>
-                        <h4 className="h4Font">Your Friendly Resident Tech Unicorn 🦄✨ </h4>
+                        <h4 className="h4Font">Your Friendly Resident Tech Specialist! </h4>
                         <p className="DocSubFont">My specialties include customer support, APIs, full-stack web development, and graphic design</p>
 
                         <div className="DocButton">
                             <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034">Github</Button> {' '}
-                            {/* <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href={} target="_blank">CV/Resume</Button> */}
                         </div>
                     </div>
                 </section>
@@ -34,19 +34,19 @@ export default class Home extends Component {
                 {/* About Section */}
                 <section class="hero is-medium">
                     <div class="hero-body" >
-                        <h1 className="h1Font" style={{ color: '#C18FC6' }}>Here's a Bit About Me 🌈</h1>
+                        <h1 className="h1Font" style={{ color: '#C18FC6' }}>Here's a Bit About Me</h1>
                         <h4 className="DocSubFont">
                         Hi! My name's Cydney, an API engineer deeply passionate about crafting elegant solutions in the ever-evolving tech landscape.
                         My first interest in APIs began within my software engineering bootcamp when I used Google Maps API for a project. 
                         Seeing how this API interacted within my project made my interest blossom. My technical expertise includes testing, 
                         troubleshooting, and utilizing RESTful APIs. This expertise also includes writing in JavaScript, 
-                        querying with SQL, and ensuring security. My mission as an API engineer is to create seamless, 
+                        querying with SQL, and ensuring proper security protocols are met upon API usage. My mission as an API engineer is to create seamless, 
                         reliable, and scalable solutions. I believe in the power of APIs to transform industries and make the digital world more connected. 
                         When I’m not continuously learning new skills and technologies, I either am playing Animal 
                         Crossing or rewatching episodes of The Big Bang Theory.
 
                         I'm excited to tackle new challenges and apply my problem-solving skills to deliver solutions for easier API usage. Please feel 
-                        free to reach out to me at cydneypollard.hire@gmail.com to discuss potential collaborations or simply chat about the fascinating world of APIs.
+                        free to reach out to me at cydneypollard.hire@gmail.com to discuss potential collaborations and networking opportunities.
 
                         </h4>
                         <div className="container">
@@ -62,7 +62,7 @@ export default class Home extends Component {
                 {/* Portfolio Section */}
                 <section class="hero is-small">
                     <div class="hero-body">
-                        <h1 className="h1Font" style={{ color: '#C18FC6' }}> My Recent Projects ✨</h1>
+                        <h1 className="h1Font" style={{ color: '#C18FC6' }}> My Recent Projects</h1>
                         <p className="DocSubFont">Here's some projects I've designed and developed so far.</p>
                         <div>&nbsp;</div>
                         <div className="columns is-multiline">
@@ -143,7 +143,7 @@ export default class Home extends Component {
                 <section class="hero is-medium">
 
                     <div class="hero-body">
-                        <h1 className="h1Font" style={{ color: '#C18FC6' }}> My Skill Set 💻</h1>
+                        <h1 className="h1Font" style={{ color: '#C18FC6' }}> My Skill Set</h1>
                         <p className="DocSubFont">In completing my projects and in my daily work, I've gained knowledges on tools, technology stacks, and more.</p>
                         <div>&nbsp;</div>
 
@@ -229,8 +229,11 @@ export default class Home extends Component {
 
 
                         </div>
+                        <p className="DocSubFont"><a href={PDF} style={{ color: '#C18FC6' }}>View Full Resume</a></p>
                     </div>
                 </section>
+
+                
 
                 {/*See Me On Section */}
                 <section class="hero is-small">
@@ -264,8 +267,9 @@ export default class Home extends Component {
                 <section class="hero is-medium">
                     <div class="hero-body" >
                         <div className="DocButton">
-                            <h4 className="h4Font" style={{ color: '#C18FC6' }}>Interested in Contacting Me? 🚀</h4>
-                            <p className="DocSubFont">I'm always open to new employment and network opportunities.</p>
+                            <h4 className="h4Font" style={{ color: '#C18FC6' }}>Interested in Contacting Me?</h4>
+                            <p className="DocSubFont">Please feel 
+                        free to reach out to me in the contact form below to discuss potential collaborations and networking opportunities.</p>
                             <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="#/contact">Contact Me</Button>
                         </div>
                     </div>
