@@ -4,6 +4,7 @@ import MemoryGame from '../components/images/memorygame.png';
 import DisneyLogin from '../components/images/disneylogin.png';
 import HelloFriend from '../components/images/hellofriend.png';
 import ThatGirlCodes from '../components/images/thatgirlcodes.png';
+import AnimeBae from '../components/images/animebae.png';
 import { Button } from 'react-bootstrap';
 
 
@@ -120,6 +121,27 @@ export default class Home extends Component {
                                     <div class="container">
                                         <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/thatgirlcodes">Github</Button> {' '}
                                         <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://thatgirlcodes.onrender.com/">Website</Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure className="Portfolio-Image">
+                                    <img src={AnimeBae} alt="light-purple-and-pink-background-with-image-of-women-on-grid-with-black-boxes" />
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <p class="title is-4">Anime Bae App</p>
+                                <div class="content">
+                                The Anime Bae App is an app that connects women who loves anime and games. Built using the MERN stack and API creation.
+                                    <div>&nbsp;</div>
+                                    <div class="container">
+                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034/animebaedeaux">Github</Button> {' '}
+                                        <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://animebae.onrender.com/">Website</Button>
                                     </div>
                                 </div>
                             </div>

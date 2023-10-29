@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/434d7a00-33cc-11ee-b436-9790aa40195d";
 
 const ContactForm = () => {
@@ -49,7 +50,7 @@ const ContactForm = () => {
   return (
     <section className="hero is-small">
                 <h1 className="h1Font">Contact Me 💌</h1>
-                <h2 className="DocSubFont">Feel free to fill out the contact form below if you'd like to contact me in regards to employment and network opportunities.</h2>
+                <h2 className="DocSubFont">Feel free to fill out the contact form below if you'd like to connect.</h2>
     <div>&nbsp;</div>
 
     <form

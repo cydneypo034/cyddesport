@@ -13,6 +13,7 @@ import CodeWars from '../components/images/codears.png';
 import Cydney from '../components/images/cydney.png';
 
 
+
 export default class Home extends Component {
     render() {
         return (
@@ -24,10 +25,6 @@ export default class Home extends Component {
                         <h1 className="h1Font" style={{ color: '#C18FC6' }}>Hi, I'm Cydney! 👋🏾 </h1>
                         <h4 className="h4Font">Your Friendly Resident Tech Specialist! </h4>
                         <p className="DocSubFont">My specialties include customer support, APIs, full-stack web development, and graphic design</p>
-
-                        <div className="DocButton">
-                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034">Github</Button> {' '}
-                        </div>
                     </div>
                 </section>
 
@@ -45,7 +42,7 @@ export default class Home extends Component {
                         Crossing or rewatching episodes of The Big Bang Theory.
 
                         I'm excited to tackle new challenges and apply my problem-solving skills to deliver solutions for easier API usage. Please feel 
-                        free to reach out to me at cydneypollard.hire@gmail.com to discuss potential collaborations and networking opportunities.
+                        free to reach out to me to discuss potential collaborations and networking opportunities.
 
                         </h4>
                         <div className="container">
@@ -270,7 +267,9 @@ export default class Home extends Component {
                             <h4 className="h4Font" style={{ color: '#C18FC6' }}>Interested in Contacting Me?</h4>
                             <p className="DocSubFont">Please feel 
                         free to reach out to me in the contact form below to discuss potential collaborations and networking opportunities.</p>
-                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="#/contact">Contact Me</Button>
+                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="#/contact">Contact Me</Button> {' '}
+                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://github.com/cydneypo034">Github</Button> {' '}
+                            <Button variant="default" style={{ color: 'white', background: '#C18FC6' }} href="https://www.linkedin.com/in/cydney-p-47aa6212a/">LinkedIn</Button> {' '}
                         </div>
                     </div>
                 </section>
