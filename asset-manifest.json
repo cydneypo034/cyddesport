@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cyddesport/static/css/main.e8f40b7c.css",
-    "main.js": "/cyddesport/static/js/main.9cf9451b.js",
+    "main.js": "/cyddesport/static/js/main.ac22b297.js",
     "static/js/787.d0099a53.chunk.js": "/cyddesport/static/js/787.d0099a53.chunk.js",
     "static/media/cydney.png": "/cyddesport/static/media/cydney.df49a1f5af4977cc52bd.png",
     "static/media/animebae.png": "/cyddesport/static/media/animebae.3cc4ca289f4c8d13fbe3.png",
@@ -10,17 +10,18 @@
     "static/media/disneylogin.png": "/cyddesport/static/media/disneylogin.6839f3e7e73ff8426b66.png",
     "static/media/hellofriend.png": "/cyddesport/static/media/hellofriend.e067fec1e13e42166935.png",
     "static/media/cydneyportfolio.png": "/cyddesport/static/media/cydneyportfolio.6e89e6dbe1f5be61fa26.png",
+    "static/media/crunchyroll-loginpage.png": "/cyddesport/static/media/crunchyroll-loginpage.a15aa3cdce168b74d33b.png",
     "static/media/Cydney-Pollard-Resume-10:2023.pdf": "/cyddesport/static/media/Cydney-Pollard-Resume-10:2023.62c09b7c35f105e912c4.pdf",
     "static/media/Grovana-MediumRound.ttf": "/cyddesport/static/media/Grovana-MediumRound.ec52f0f5adef2629561f.ttf",
     "static/media/codears.png": "/cyddesport/static/media/codears.85f740ad20b8dfc38855.png",
     "static/media/dev-to.png": "/cyddesport/static/media/dev-to.e05c4693a970e5b7f615.png",
     "index.html": "/cyddesport/index.html",
     "main.e8f40b7c.css.map": "/cyddesport/static/css/main.e8f40b7c.css.map",
-    "main.9cf9451b.js.map": "/cyddesport/static/js/main.9cf9451b.js.map",
+    "main.ac22b297.js.map": "/cyddesport/static/js/main.ac22b297.js.map",
     "787.d0099a53.chunk.js.map": "/cyddesport/static/js/787.d0099a53.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8f40b7c.css",
-    "static/js/main.9cf9451b.js"
+    "static/js/main.ac22b297.js"
   ]
 }
