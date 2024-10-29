@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
 import CydneyPortfolio from '../components/images/cydneyportfolio.png';
-import PDF from '../components/uploads/Cydney-Pollard-Resume-10:2023.pdf';
+import PDF from '../components/uploads/CPollard_Resume-2024.pdf';
 import ThatGirlCodes from '../components/images/thatgirlcodes.png';
 import HelloFriend from '../components/images/hellofriend.png';
 import FrontEnd from '../components/images/frontend-mentor.png';
