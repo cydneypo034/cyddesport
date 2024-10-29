@@ -33,15 +33,10 @@ export default class Home extends Component {
                     <div class="hero-body" >
                         <h1 className="h1Font" style={{ color: '#C18FC6' }}>Here's a Bit About Me</h1>
                         <h4 className="DocSubFont">
-                        Hi! My name's Cydney, an API engineer deeply passionate about crafting elegant solutions in the ever-evolving tech landscape.
-                        My first interest in APIs began within my software engineering bootcamp when I used Google Maps API for a project. 
-                        Seeing how this API interacted within my project made my interest blossom. My technical expertise includes testing, 
-                        troubleshooting, and utilizing RESTful APIs. This expertise also includes writing in JavaScript, 
-                        querying with SQL, and ensuring proper security protocols are met upon API usage. My mission as an API engineer is to create seamless, 
-                        reliable, and scalable solutions. When I’m not continuously learning new skills and technologies, I either am playing Animal 
-                        Crossing or rewatching episodes of The Big Bang Theory.
-
-                        I'm excited to tackle new challenges and apply my problem-solving skills to deliver solutions for easier API usage. Please feel 
+                        My name’s Cydney Pollard and I’m a tech professional based in Atlanta, GA, who has successfully pivoted from the creative industry 
+                        into tech. With my background in design, software engineering, manual testing, and customer support,  
+                        my unconventional path into this industry is a strength not a liability, making me well-rounded and an asset in client-facing roles!
+                        I'm excited to continue tackling new challenges and continue growing within my tech career. Please feel 
                         free to reach out to me to discuss potential collaborations and networking opportunities.
 
                         </h4>
